@@ -14,3 +14,4 @@ jobs:
           dst_path: /content/Conholdate.Total/
           dst_owner: conholdate
           dst_repo_name: conholdate-blog
+          dst_branch: main
