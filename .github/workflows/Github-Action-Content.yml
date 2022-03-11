@@ -4,14 +4,12 @@ jobs:
   Copy-Content:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-      
       - name: Copy
         uses: andstor/copycat-action@v3
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           src_path: /Conholdate.Total/
-          dst_path: /content/Conholdate.Total/
+          dst_path: /content/
           dst_owner: conholdate
           dst_repo_name: conholdate-blog
           dst_branch: main
