@@ -17,7 +17,7 @@ tags:
 
 {{< figure align=center src="images/add-hyperlinks-and-bookmarks-dynamically-using-csharp.jpg" alt="Add Hyperlinks and Bookmarks Dynamically using C#">}}
  
-Hyperlinks and bookmarks are handy for the users to navigate the relevant content quickly. When a hyperlink is clicked, it opens the URL in the browser or navigates to the specified bookmark location within the document. In this article, we will learn **how to add hyperlinks and bookmarks to reports dynamically using C#**.
+Hyperlinks and bookmarks are handy for users to navigate the relevant content quickly. When we click a hyperlink, it opens the URL in the browser or navigates to the specified bookmark location within the document. In this article, we will learn **how to add hyperlinks and bookmarks to reports dynamically using C#**.
 
 The following topics shall be covered in this article:
 
@@ -28,7 +28,7 @@ The following topics shall be covered in this article:
 
 ## C# API to Add Hyperlinks and Bookmarks Dynamically {#CSharp-API-to-Add-Hyperlinks-and-Bookmarks-Dynamically}
 
-For adding hyperlinks and bookmarks to reports dynamically, We will be using [GroupDocs.Assembly for .NET][5] API. It allows building powerful document automation and report generation applications. It fetches data from the data source as per the defined template document, assembles it, and generates reports in the specified output format. Please either [download][6] the DLL of the API or install it using [NuGet][7].
+For adding hyperlinks and bookmarks to reports dynamically, we will be using [GroupDocs.Assembly for .NET][5] API. It allows you to build powerful document automation and report generation applications. It fetches data from the data source as per the defined template document, assembles it, and generates reports in the specified output format. Please either [download][6] the DLL of the API or install it using [NuGet][7].
 
 ```
 PM> Install-Package GroupDocs.Assembly
@@ -36,7 +36,7 @@ PM> Install-Package GroupDocs.Assembly
 
 ## Add Hyperlinks Dynamically using C# {#Add-Hyperlinks-Dynamically-using-CSharp}
 
-We can insert hyperlinks to reports dynamically using the link tags. The syntax of a link tag to be used in the template document is defined as follows:
+We can insert hyperlinks into reports dynamically using link tags. We can use the link tag in the template document as shown below:
 
 ```
 <<link [uri_expression][display_text_expression]>>
@@ -58,7 +58,7 @@ The following code sample shows **how to add hyperlinks dynamically using C#**.
 
 ## Add Bookmarks Dynamically using C# {#Add-Bookmarks-Dynamically-using-CSharp}
 
-We can insert bookmarks to reports dynamically using the bookmark tags. The syntax of a bookmark tag to be used in the template document is defined as follows:
+We can insert bookmarks into reports dynamically using bookmark tags. We can use the bookmark tag in the template document as shown below:
 
 ```
 <<bookmark [bookmark_expression]>>
@@ -103,7 +103,7 @@ In this article, we have learned how to:
   * insert hyperlinks and bookmarks to reports dynamically using C#;
   * add a hyperlink to a bookmark dynamically.
 
-Besides, you can learn more about GroupDcos.Assembly for .NET API using the [documentation][10]. In case of any ambiguity, please feel free to contact us on the [forum][11].
+Besides, you can learn more about GroupDcos.Assembly for .NET API using the [documentation][10]. In case of any ambiguity, please feel free to contact us on the [forum][11].
 
 ## See Also
 
