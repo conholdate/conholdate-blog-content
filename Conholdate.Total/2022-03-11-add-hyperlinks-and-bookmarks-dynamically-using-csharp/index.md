@@ -1,5 +1,5 @@
 ---
-title: 'Add Hyperlinks and Bookmarks Dynamically using C#'
+title: 'Add Hyperlinks and Bookmarks Dynamically using CSharp'
 author: Muzammil Khan
 date: 2022-03-11T06:43:17+00:00
 summary: 'Hyperlinks and bookmarks are handy for the users to navigate the relevant content quickly. In this article, you will learn **how to add hyperlinks and bookmarks to your reports dynamically using C#**.'
