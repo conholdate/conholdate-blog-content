@@ -1,5 +1,5 @@
 ---
-title: "'使用 Java 读取 Outlook MSG 文件'"
+title: "使用 Java 读取 Outlook MSG 文件"
 author: Muzammil Khan
 date: 2022-03-16T06:43:17+00:00
 summary: "您可以在 Java 应用程序中读取 Outlook MSG 文件并提取主题、收件人、发件人、正文等属性。在本文中，您将学习**如何使用 Java 读取 Outlook MSG 文件**。"
