@@ -32,7 +32,7 @@ The following topics shall be covered in this article:
 
 ## C# API to Merge JPG Images into PDF {#CSharp-API-to-Merge-JPG-Images-into-PDF}
 
-For merging two or more JPG images into a PDF document, we will follow a two-step procedure. Firstly, we will be using [Aspose.Imaging for .NET][7] to convert JPG to PDF, and then we will merge into a PDF document using [GroupDocs.Merger for.NET][8] API. Please either [download][9] the DLLs for the APIs or install them using [NuGet][10].
+For merging two or more JPG images into a PDF document, we will follow a two-step procedure. Firstly, we will be using [Aspose.Imaging for .NET][7] to convert JPG to PDF, and then we will merge into a PDF document using [GroupDocs.Merger for .NET][8] API. Please either [download][9] the DLLs for the APIs or install them using [NuGet][10].
 
 ```
 PM> Install-Package Aspose.Imaging
@@ -72,9 +72,9 @@ The following code sample shows **how to append a JPG image into an existing PDF
 
 We can merge multiple JPG images into a PDF document by following the steps given below:
 
-  1. Read all JPG image files from a directory one by one
+  1. Read all JPG image files from a directory one by one.
   2. Load a JPG image using the _**[Image.Load()][11]**_ method.
-  2. If it is first image then save a PDF file. Otherwise convert and save in FileStream.
+  2. Convert the first image to PDF and save the file on a local disk. Otherwise, convert and save in FileStream.
   3. Load previously saved PDF using the _**[Merger][14]**_ class.
   4. Call the _**[Merger.Join()][15]**_ method to join the JPG converted PDF with the loaded PDF.
   5. Finally, call the _**[Merger.Save()][16]**_  method to save the merged PDF. It takes output file path as an argument.
@@ -93,10 +93,10 @@ Please try the API without evaluation limitations by requesting [a free temporar
 
 In this article, we have learned how to:
   * save JPG image as a PDF document in C#;
-  * insert image in a PDF document programmatically;
+  * insert an image in a PDF document programmatically;
   * combine multiple images in a PDF document. 
  
-Besides, you can learn more about Aspose.Email for C# API using the [documentation][18]. In case of any ambiguity, please feel free to contact us on the [forum][19].
+Besides, you can learn more about Aspose.Imaging for .NET API using the [documentation][18]. In case of any ambiguity, please feel free to contact us on the [forum][19].
 
 ## See Also
 
@@ -120,7 +120,7 @@ Besides, you can learn more about Aspose.Email for C# API using the [documentati
   [15]: https://apireference.groupdocs.com/merger/net/groupdocs.merger/merger/methods/join
   [16]: https://apireference.groupdocs.com/merger/net/groupdocs.merger.merger/save/methods/1
   [17]: https://purchase.conholdate.com/temporary-license
-  [18]: https://docs.aspose.com/imaging/C#/
-  [19]: https://forum.aspose.com/c/imaging/
+  [18]: https://docs.aspose.com/imaging/net/
+  [19]: https://forum.aspose.com/c/imaging/14
   [20]: https://blog.conholdate.com/2022/01/05/crop-and-resize-jpeg-images-using-csharp/
   [21]: https://blog.conholdate.com/2021/11/19/merge-word-documents-using-csharp/
