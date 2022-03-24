@@ -32,7 +32,7 @@ The following topics shall be covered in this article:
 
 ## C# API to Merge JPG Images into PDF {#CSharp-API-to-Merge-JPG-Images-into-PDF}
 
-For merging two or more JPG images into a PDF document, we will follow a two-step procedure. Firstly, we will be using [Aspose.Imaging for .NET][7] to convert JPG to PDF, and then we will merge into a PDF document using [GroupDocs.Merger for .NET][8] API. Please either [download][9] the DLLs for the APIs or install them using [NuGet][10].
+For merging two or more JPG images into a PDF document, we will follow a two-step procedure. Firstly, we will be using [Aspose.Imaging for .NET][7] to convert JPG to PDF, and then we will merge them into a PDF document using [GroupDocs.Merger for .NET][8] API. Please either [download][9] the DLLs for the APIs or install them using [NuGet][10].
 
 ```
 PM> Install-Package Aspose.Imaging
