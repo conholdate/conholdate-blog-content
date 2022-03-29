@@ -8,7 +8,7 @@ url: /2022/03/29/render-powerpoint-presentation-using-csharp/
 categories:
   - Conholdate.Total Product Family
 tags:
-  - 'C# API to view PPTX'
+  - 'C# API to View PPTX'
   - 'PPTX Viewer'
   - 'C# PPTX Viewer'
   - 'PowerPoint Viewer in C#'
@@ -72,7 +72,7 @@ The following code sample shows **how to render a PPTX as HTML using C#**.
 
 ## Render PowerPoint Notes in HTML using C# {#Render-PowerPoint-Notes-in-HTML-using-CSharp}
 
-We can render a PowerPoint presentation notes in HTML by following the steps mentioned earlier. However, we just need to enable rendering of notes as shown below:
+We can render PowerPoint presentation notes in HTML by following the steps mentioned earlier. However, we just need to enable rendering of notes as shown below:
 
 ```
 viewOptions.RenderNotes = true;
@@ -123,7 +123,7 @@ Besides, you can learn more about GroupDocs.Viewer for .NET API using the [docum
   [3]: https://docs.fileformat.com/web/html/
   [4]: #CSharp-API-to-Render-PowerPoint-Presentation
   [5]: #Render-PowerPoint-Presentation-in-PDF-using-CSharp
-  [6]: #Render-PowerPoint-Presentation-as-HTML-using-CSharp
+  [6]: #View-PowerPoint-Presentation-in-HTML-using-CSharp
   [7]: #Convert-PowerPoint-Slides-into-JPG-images-using-CSharp
   [8]: https://docs.fileformat.com/presentation/ppt/
   [9]: https://docs.fileformat.com/presentation/pptx/
