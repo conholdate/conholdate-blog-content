@@ -90,8 +90,8 @@ Is Encrypted :false
 
 We can read the XMP metadata of a PDF document by following the steps given below:
 
-  1. Firstly, load a PDF document using the [**_Document_**][13] class.
-  2. Finally, read metadata using the [**_get_Item()_**][14] method of the **_[Metadata][15]_** class and extract the information.
+  1. Firstly, load a PDF document using the _**[Document][13]**_ class.
+  2. Finally, read metadata using the _**[get_Item()][14]**_ method of the _**[Metadata][15]**_ class and extract the information.
 
 The following code sample shows **how to get XMP metadata of a PDF file using Java**.
 
@@ -107,9 +107,9 @@ xmp:CustomProperty : Custom Value
 
 We can set the XMP metadata in a PDF file by following the steps given below:
 
-  1. Firstly, load a PDF document using the [**_Document_**][13] class.
-  2. Next, set metadata values using the [**_set_Item()_**][16] method of the **_[Metadata][15]_** class.
-  3. Finally, save the PDF file using the **_[Document.save()][17]_** method with the output file path as an argument.
+  1. Firstly, load a PDF document using the _**[Document][13]**_ class.
+  2. Next, set metadata values using the _**[set_Item()][16]**_ method of the **_[Metadata][15]_** class.
+  3. Finally, save the PDF file using the _**[Document.save()][17]**_ method with the output file path as an argument.
 
 The following code sample shows **how to set XMP metadata of a PDF file using Java**.
 
@@ -121,7 +121,7 @@ We can set the customized namespace URI instead of defined XMP specifications in
 
   1. Firstly, load a PDF document using the [**_Document_**][13] class.
   2. Next, call the **_registerNamespaceUri()_** method with a prefix and namespace URI as arguments.
-  3. Then, set metadata values using the [**__set_Item()_**][16] method.
+  3. Then, set metadata values using the _**[set_Item()][16]**_ method.
   4. Finally, save the PDF file using the **_[Document.Save()][17]_** method with the output file path as an argument.
 
 The following code sample shows **how to set custom metadata namespace in a PDF file using Java**.
@@ -140,7 +140,7 @@ myown:MyProperty: My Custom Value
 
 ## Get a Free API License {#Get-a-Free-License}
 
-You can try the API without evaluation limitations by requesting [a free temporary license][30].
+You can try the API without evaluation limitations by requesting [a free temporary license][19].
 
 ## Conclusion
 
@@ -150,23 +150,23 @@ In this article, we have learned how to:
   * set/ get the XMP metadata in a PDF file using Java;
   * set custom metadata namespace URI with a prefix.
 
-Besides, you can learn more about Aspose.PDF for Java API using the [documentation][31]. In case of any ambiguity, please feel free to contact us on the [forum][32].
+Besides, you can learn more about Aspose.PDF for Java API using the [documentation][20]. In case of any ambiguity, please feel free to contact us on the [forum][21].
 
 ## See Also
 
-  * [Convert PDF to HTML using Java][33]
-  * [Add Footnotes and Endnotes in PDF using Java][34]
+  * [Convert PDF to HTML using Java][22]
+  * [Add Footnotes and Endnotes in PDF using Java][23]
 
  [1]: #Java-API-to-Edit-PDF-Properties-and-Metadata
  [2]: #Edit-PDF-Properties-using-Java
  [3]: #Read-PDF-Properties-using-Java
- [4]: #Get-XMP-Metadata-of-a-PDF-File-using-CSharp
- [5]: #Set-XMP-Metadata-in-a-PDF-File-using-CSharp
+ [4]: #Get-XMP-Metadata-of-a-PDF-File-in-Java
+ [5]: #Set-XMP-Metadata-in-a-PDF-File-in-Java
  [6]: #Customize-XMP-Metadata-Namespace-in-a-PDF-File
  [7]: https://docs.fileformat.com/pdf/
- [8]: https://products.aspose.com/pdf/net/
- [9]: https://docs.aspose.com/pdf/net/supported-file-formats/
- [10]: https://downloads.aspose.com/pdf/net
+ [8]: https://products.aspose.com/pdf/java/
+ [9]: https://docs.aspose.com/pdf/java/supported-file-formats/
+ [10]: https://downloads.aspose.com/pdf/java
  [11]: https://apireference.aspose.com/pdf/java/com.aspose.pdf.facades/PdfFileInfo
  [12]: https://apireference.aspose.com/pdf/java/com.aspose.pdf.facades/PdfFileInfo#saveNewInfo-java.lang.String-
  [13]: https://apireference.aspose.com/pdf/java/com.aspose.pdf/Document
@@ -176,7 +176,7 @@ Besides, you can learn more about Aspose.PDF for Java API using the [documentati
  [17]: https://apireference.aspose.com/pdf/java/com.aspose.pdf/Document#save-java.lang.String-
  [18]: https://apireference.aspose.com/pdf/java/com.aspose.pdf/Metadata#registerNamespaceUri-java.lang.String-java.lang.String-
  [19]: https://purchase.conholdate.com/temporary-license
- [20]: https://docs.aspose.com/pdf/net
+ [20]: https://docs.aspose.com/pdf/java
  [21]: https://forum.aspose.com/c/pdf/10
  [22]: https://blog.conholdate.com/2022/02/19/convert-pdf-to-html-using-java/
  [23]: https://blog.conholdate.com/2022/02/07/add-footnotes-and-endnotes-in-pdf-using-java/
