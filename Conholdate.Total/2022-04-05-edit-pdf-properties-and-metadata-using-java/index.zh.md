@@ -1,6 +1,6 @@
 ---
-title: "'使用 Java 编辑 PDF 属性和元数据'"
-author: Muzammil Khan
+title: "使用 Java 编辑 PDF 属性和元数据"
+author: "Muzammil Khan"
 date: 2022-04-05T15:15:07+00:00
 summary: "您可以通过编程方式添加/编辑和读取 PDF 文档的文档信息和 XMP 元数据。在本文中，您将学习**如何使用 Java 编辑 PDF 属性和元数据**。"
 url: /zh/2022/04/05/edit-pdf-properties-and-metadata-using-java/

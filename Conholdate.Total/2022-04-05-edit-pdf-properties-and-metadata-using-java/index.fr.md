@@ -1,6 +1,6 @@
 ---
-title: ""Modifier les propriétés et les métadonnées PDF à l'aide de Java""
-author: Muzammil Khan
+title: "Modifier les propriétés et les métadonnées PDF à l'aide de Java"
+author: "Muzammil Khan"
 date: 2022-04-05T15:15:07+00:00
 summary: "Vous pouvez ajouter/modifier et lire les informations sur le document et les métadonnées XMP d'un document PDF par programmation. Dans cet article, vous apprendrez **comment modifier les propriétés et les métadonnées d'un PDF à l'aide de Java**."
 url: /fr/2022/04/05/edit-pdf-properties-and-metadata-using-java/
