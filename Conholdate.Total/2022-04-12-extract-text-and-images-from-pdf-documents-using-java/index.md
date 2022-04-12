@@ -148,12 +148,12 @@ Besides, you can learn more about GroupDocs.Parser for Java API using the [docum
   * [Extract Text from Word Documents using Java][27]
 
  [1]: https://docs.fileformat.com/pdf/
- [2]: https://docs.fileformat.com/PDF-processing/doc/
- [3]: https://docs.fileformat.com/PDF-processing/docx/
- [4]: #Java-API-to-Extract-Text-from-PDF-Documents
- [5]: #Extract-Text-from-PDF-Documents-using-Java
- [6]: #Extract-Text-from-Specific-Pages-of-a-Document-using-Java
- [7]: #Get-Highlight-from-Documents-using-Java
+ [2]: #Java-API-to-Extract-Text-and-Images-from-PDF-Documents
+ [3]: #Extract-Text-from-PDF-Documents-using-Java
+ [4]: #Extract-Text-from-Specific-Page-of-a-PDF-Document-using-Java
+ [5]: #Get-Images-from-PDF-Documents-using-Java
+ [6]: #Extract-Images-from-Specific-Page-of-a-PDF-Document-using-Java
+ [7]: #Extract-and-Save-Images-to-Files-using-Java
  [8]: https://products.groupdocs.com/parser/java/
  [9]: https://docs.groupdocs.com/parser/java/supported-document-formats/
  [10]: https://downloads.groupdocs.com/parser/java
