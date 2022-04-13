@@ -1,6 +1,6 @@
 ---
 title: "使用 Java 从 PDF 文档中提取文本和图像"
-author: Muzammil Khan
+author: "Muzammil Khan"
 date: 2022-04-12T03:52:00+00:00
 summary: "作为 Java 开发人员，您可以轻松地以编程方式从 PDF 文档中提取文本和图像。在本文中，您将学习**如何使用 Java 从 PDF 文档中提取文本和图像**。"
 url: /zh/2022/04/12/extract-text-and-images-from-pdf-documents-using-java/
@@ -11,10 +11,10 @@ tags:
   - "文档图像提取"
   - "提取文本"
   - "提取图像"
-  - "提取文本" from PDF
-  - "提取图像" from PDF
+  - "提取文本 from PDF"
+  - "提取图像 from PDF"
   - "文本提取"
-  - "文本提取" API
+  - "文本提取 API"
   - "用于 Java 的文本提取器 API"
   - "图像提取"
   - "图像提取 API"
@@ -278,11 +278,3 @@ for (PageImageArea image : images)
  [25]: https://docs.groupdocs.com/parser/java/
  [26]: https://forum.groupdocs.com/c/parser/
  [27]: https://blog.conholdate.com/2021/10/13/extract-text-from-word-documents-using-java/
-
-
-
-
-
-
-
-

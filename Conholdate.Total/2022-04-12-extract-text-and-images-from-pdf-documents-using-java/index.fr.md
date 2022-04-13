@@ -1,8 +1,8 @@
 ---
 title: "Extraire du texte et des images de documents PDF à l'aide de Java"
-author: Muzammil Khan
+author: "Muzammil Khan"
 date: 2022-04-12T03:52:00+00:00
-summary: "En tant que développeur Java, vous pouvez facilement extraire du texte et des images de vos documents PDF par programmation. Dans cet article, vous apprendrez ** comment extraire du texte et des images de documents PDF à l'aide de Java **."
+summary: "En tant que développeur Java, vous pouvez facilement extraire du texte et des images de vos documents PDF par programmation. Dans cet article, vous apprendrez **comment extraire du texte et des images de documents PDF à l'aide de Java**."
 url: /fr/2022/04/12/extraire-texte-et-images-des-documents-pdf-en-utilisant-java/
 categories:
   - "Conholdate.Total Famille de produits"
@@ -11,10 +11,10 @@ tags:
   - "Extraction d'images de documents"
   - "Extraire le texte"
   - "Extraire des images"
-  - "Extraire le texte" from PDF
-  - "Extraire des images" from PDF
+  - "Extraire le texte from PDF"
+  - "Extraire des images from PDF"
   - "Extraction de texte"
-  - "Extraction de texte" API
+  - "Extraction de texte API"
   - "API d'extraction de texte pour Java"
   - "Extraction d'images"
   - "API d'extraction d'images"
