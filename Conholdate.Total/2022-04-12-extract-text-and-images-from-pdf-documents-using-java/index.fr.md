@@ -36,7 +36,7 @@ Les sujets suivants seront traités dans cet article :
 
 ## API Java pour extraire du texte et des images à partir de documents PDF {#Java-API-to-Extract-Text-and-Images-from-PDF-Documents}
 
-Pour extraire du texte et des images à partir de documents PDF, nous utiliserons l'API [GroupDocs.Parser for Java][8]. Il permet l'extraction de texte, de métadonnées et d'images bruts, formatés et structurés à partir de fichiers aux [formats pris en charge] [9]. Veuillez soit [télécharger][10] le JAR de l'API ou ajouter la configuration _pom.xml_ suivante dans une application Java basée sur Maven.
+Pour extraire du texte et des images à partir de documents PDF, nous utiliserons l'API [GroupDocs.Parser for Java][8]. Il permet l'extraction de texte, de métadonnées et d'images bruts, formatés et structurés à partir de fichiers aux [formats pris en charge][9]. Veuillez soit [télécharger][10] le JAR de l'API ou ajouter la configuration _pom.xml_ suivante dans une application Java basée sur Maven.
 
 ```
 <repository>

@@ -31,7 +31,7 @@ Les sujets suivants sont abordés/couverts dans cet article:
 
 ## API C # pour ajouter un filigrane dans les documents Word {#CSharp-API-to-Add-Watermark-in-Word-Documents}
 
-Pour ajouter des filigranes de texte ou d'image dans les fichiers [DOC][8] ou [DOCX][9], nous utiliserons l'API [GroupDocs.Watermark for .NET][10]. Il vous permet d'ajouter, de modifier, de rechercher et de supprimer des filigranes d'image et de texte dans [formats de fichiers pris en charge] [11]. Il permet également d'obtenir les informations de base sur les documents source telles que le type de fichier, la taille, le nombre de pages, la hauteur et la largeur de la page, etc. La fonction d'aperçu du document de l'API permet de générer des représentations d'image des pages du document pour une meilleure compréhension du document.
+Pour ajouter des filigranes de texte ou d'image dans les fichiers [DOC][8] ou [DOCX][9], nous utiliserons l'API [GroupDocs.Watermark for .NET][10]. Il vous permet d'ajouter, de modifier, de rechercher et de supprimer des filigranes d'image et de texte dans [formats de fichiers pris en charge][11]. Il permet également d'obtenir les informations de base sur les documents source telles que le type de fichier, la taille, le nombre de pages, la hauteur et la largeur de la page, etc. La fonction d'aperçu du document de l'API permet de générer des représentations d'image des pages du document pour une meilleure compréhension du document.
 
 Vous pouvez soit [télécharger][12] la DLL de l'API, soit l'installer à l'aide de [NuGet][13].
 
@@ -45,7 +45,7 @@ Vous pouvez ajouter un filigrane de texte aux documents Word en suivant les éta
   * Tout d'abord, chargez le fichier DOCX à l'aide de la classe [Watermarker][14].
   * Initialisez la police à utiliser pour le texte du filigrane à l'aide de la classe [Font][15].
   * Créez une instance de la classe [TextWatermark][16] pour créer un filigrane de texte. Passez le texte à afficher en filigrane et l'objet de police défini en tant que paramètres d'entrée.
-  * Maintenant, définissez diverses [propriétés du filigrane] [17] telles que la couleur de premier plan, la couleur d'arrière-plan, l'angle de rotation, la hauteur, la largeur, l'opacité, etc.
+  * Maintenant, définissez diverses [propriétés du filigrane][17] telles que la couleur de premier plan, la couleur d'arrière-plan, l'angle de rotation, la hauteur, la largeur, l'opacité, etc.
   * Ensuite, appelez la méthode [Watermarker.Add()][18] pour ajouter le filigrane de texte au document.
   * Enfin, appelez la méthode [Watermarker.Save()][19] pour enregistrer le document Word en filigrane.
 
@@ -90,7 +90,7 @@ watermarker.Save(@"C:\Files\Watermark\addTextWatermark_output.docx");
 Vous pouvez ajouter une image en filigrane aux documents Word en suivant les étapes ci-dessous :
   * Tout d'abord, chargez le fichier DOCX à l'aide de la classe [Watermarker][14].
   * Créez une instance de la classe [ImageWatermark][21] avec le chemin de l'image pour créer un filigrane d'image.
-  * Maintenant, définissez diverses [propriétés du filigrane] [17] telles que l'alignement, la hauteur, la largeur, etc.
+  * Maintenant, définissez diverses [propriétés du filigrane][17] telles que l'alignement, la hauteur, la largeur, etc.
   * Ensuite, appelez la méthode [Watermarker.Add()][18] pour ajouter le filigrane d'image au document.
   * Enfin, appelez la méthode [Watermarker.Save()][19] pour enregistrer le document Word en filigrane.
 
@@ -126,7 +126,7 @@ watermarker.Save(@"C:\Files\Watermark\AddImageWatermark_output.docx");
 Vous pouvez ajouter un filigrane de texte aux images dans les documents Word en suivant les étapes ci-dessous :
   * Tout d'abord, chargez le fichier DOCX à l'aide de la classe [Watermarker][14].
   * Créez une instance de la classe [TextWatermark][16] pour créer un filigrane de texte. Transmettez le texte à afficher en filigrane et la police à utiliser pour le texte du filigrane en utilisant la classe [Font][15] comme paramètres d'entrée.
-  * Maintenant, définissez diverses [propriétés du filigrane] [17], par exemple la couleur de premier plan, l'alignement, l'angle de rotation, le facteur d'échelle, etc.
+  * Maintenant, définissez diverses [propriétés du filigrane][17], par exemple la couleur de premier plan, l'alignement, l'angle de rotation, le facteur d'échelle, etc.
   * Ensuite, appelez la méthode [Watermarker.GetImages()][23] pour rechercher toutes les images du document et obtenir les résultats dans l'objet de classe [WatermarkableImageCollection][24].
   * Pour chaque image de WatermarkableImageCollection, ajoutez un filigrane en appelant la méthode [WatermarkableImage.Add()][25] avec l'objet TextWatermark.
   * Enfin, appelez la méthode [Watermarker.Save()][19] pour enregistrer le document Word en filigrane.
@@ -170,9 +170,9 @@ Vous pouvez ajouter un filigrane à une page spécifique du document Word en sui
   * Tout d'abord, chargez le fichier DOCX à l'aide de la classe [Watermarker][14].
   * Initialisez la police à utiliser pour le texte du filigrane à l'aide de la classe [Font][15].
   * Créez une instance de la classe [TextWatermark][16] pour créer un filigrane de texte. Passez le texte à afficher en filigrane et l'objet de police défini en tant que paramètres d'entrée.
-  * Maintenant, définissez diverses [propriétés du filigrane] [17] telles que la couleur de premier plan, la couleur d'arrière-plan, l'alignement, etc.
+  * Maintenant, définissez diverses [propriétés du filigrane][17] telles que la couleur de premier plan, la couleur d'arrière-plan, l'alignement, etc.
   * Créez une instance de la classe [WordProcessingWatermarkPagesOptions][27]
-  * Maintenant, définissez les [PageNumbers] [28] pour ajouter le filigrane. Vous pouvez définir un seul numéro de page ou une liste de numéros de page séparés par des virgules. Nous l'avons défini sur [WordProcessingContent.PageCount][29] qui indique la dernière page du document ici.
+  * Maintenant, définissez les [PageNumbers][28] pour ajouter le filigrane. Vous pouvez définir un seul numéro de page ou une liste de numéros de page séparés par des virgules. Nous l'avons défini sur [WordProcessingContent.PageCount][29] qui indique la dernière page du document ici.
   * Ensuite, appelez la méthode [Watermarker.Add()][18] pour ajouter le filigrane défini.
   * Enfin, appelez la méthode [Watermarker.Save()][19] pour enregistrer le document Word en filigrane.
 
@@ -210,7 +210,7 @@ watermarker.Save(@"C:\Files\Watermark\AddToSpecificPage_output.docx");
 Vous pouvez ajouter un filigrane aux sections d'en-tête ou de pied de page des documents Word en suivant les étapes ci-dessous :
   * Tout d'abord, chargez le fichier DOCX à l'aide de la classe [Watermarker][14].
   * Créez une instance de la classe [ImageWatermark][21] avec le chemin de l'image pour créer un filigrane d'image.
-  * Ensuite, définissez diverses [propriétés du filigrane] [17] telles que l'alignement, la hauteur, la largeur, etc.
+  * Ensuite, définissez diverses [propriétés du filigrane][17] telles que l'alignement, la hauteur, la largeur, etc.
   * Créez une instance de la classe [WordProcessingWatermarkSectionOptions][30].
   * Maintenant, définissez [WordProcessingWatermarkSectionOptions.SectionIndex][31] sur 0 pour ajouter un filigrane à la première section du document.
   * Ensuite, appelez la méthode [Watermarker.Add()][18] pour ajouter le filigrane de l'image à la première section.

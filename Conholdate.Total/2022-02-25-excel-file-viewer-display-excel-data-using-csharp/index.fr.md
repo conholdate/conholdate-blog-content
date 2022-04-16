@@ -38,7 +38,7 @@ Les sujets suivants seront traités dans cet article :
 
 ## API de visualisation de fichiers C# Excel — Téléchargement gratuit {#CSharp-Excel-File-Viewer-API-Free-Download}
 
-Pour afficher les données des feuilles de calcul [XLS][10] ou [XLSX][11], nous utiliserons l'API [GroupDocs.Viewer for .NET][12]. Il permet le rendu et l'affichage des [formats de feuille de calcul pris en charge] [13] par programmation. Veuillez soit [télécharger][14] la DLL de l'API ou l'installer à l'aide de [NuGet][15].
+Pour afficher les données des feuilles de calcul [XLS][10] ou [XLSX][11], nous utiliserons l'API [GroupDocs.Viewer for .NET][12]. Il permet le rendu et l'affichage des [formats de feuille de calcul pris en charge][13] par programmation. Veuillez soit [télécharger][14] la DLL de l'API ou l'installer à l'aide de [NuGet][15].
 
 ```
 PM> Install-Package GroupDocs.Viewer

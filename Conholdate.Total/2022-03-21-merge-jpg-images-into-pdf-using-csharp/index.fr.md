@@ -21,7 +21,7 @@ tags:
 
 {{< figure align=center src="images/merge-jpg-images-into-pdf-using-csharp.jpg" alt="Fusionner JPG en PDF en utilisant C#">}}
  
-[JPG][1] est le format de fichier image le plus largement utilisé pour stocker des images compressées. [PDF] [2], d'autre part, permet de partager des documents dans un format en lecture seule sans compromettre leur style ou leur mise en page. Nous pouvons parfois avoir besoin de combiner de nombreuses photos JPG dans un document PDF. Dans cet article, nous allons apprendre **comment fusionner des images JPG dans un document PDF à l'aide de C#**.
+[JPG][1] est le format de fichier image le plus largement utilisé pour stocker des images compressées. [PDF][2], d'autre part, permet de partager des documents dans un format en lecture seule sans compromettre leur style ou leur mise en page. Nous pouvons parfois avoir besoin de combiner de nombreuses photos JPG dans un document PDF. Dans cet article, nous allons apprendre **comment fusionner des images JPG dans un document PDF à l'aide de C#**.
 
 Les sujets suivants seront traités dans cet article :
 

@@ -35,7 +35,7 @@ Les sujets suivants seront traités dans cet article :
 
 ## API C # pour rendre la présentation PowerPoint {#CSharp-API-to-Render-PowerPoint-Presentation}
 
-Pour le rendu des fichiers [PPT][8] ou [PPTX][9] dans d'autres formats, nous utiliserons l'API [GroupDocs.Viewer for .NET][10]. Il permet le rendu et l'affichage des [formats de présentation PowerPoint pris en charge] [11] par programmation. Veuillez soit [télécharger][12] la DLL pour l'API ou l'installer à l'aide de [NuGet][13].
+Pour le rendu des fichiers [PPT][8] ou [PPTX][9] dans d'autres formats, nous utiliserons l'API [GroupDocs.Viewer for .NET][10]. Il permet le rendu et l'affichage des [formats de présentation PowerPoint pris en charge][11] par programmation. Veuillez soit [télécharger][12] la DLL pour l'API ou l'installer à l'aide de [NuGet][13].
 
 ```
 PM> Install-Package GroupDocs.Viewer

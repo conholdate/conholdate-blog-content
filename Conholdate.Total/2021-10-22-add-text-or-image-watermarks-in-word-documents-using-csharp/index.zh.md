@@ -262,7 +262,7 @@ watermarker.Save(@"C:\Files\Watermark\AddWatermarkToHeadersFooters_output.docx")
 
 ## 结论
 
-在本文中，您学习了**如何使用 C# 在 Word 文档中添加文本或图像水印**。此外，您还了解了**如何以编程方式将水印添加到 Word 文档的特定页面**。本文还解释了**如何使用 C# 为 DOCX 文件中的图像添加水印**。此外，您可以使用 [documentation] [37] 了解有关 .NET API 的 GroupDocs.Watermark 的更多信息。如有任何歧义，请随时在 [论坛][38] 上与我们联系。
+在本文中，您学习了**如何使用 C# 在 Word 文档中添加文本或图像水印**。此外，您还了解了**如何以编程方式将水印添加到 Word 文档的特定页面**。本文还解释了**如何使用 C# 为 DOCX 文件中的图像添加水印**。此外，您可以使用 [documentation][37] 了解有关 .NET API 的 GroupDocs.Watermark 的更多信息。如有任何歧义，请随时在 [论坛][38] 上与我们联系。
 
 ## 也可以看看
 
