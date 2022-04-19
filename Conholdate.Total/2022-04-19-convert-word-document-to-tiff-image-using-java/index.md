@@ -53,9 +53,9 @@ For converting **DOC to TIFF** or **DOCX to TIFF**, we will be using [Aspose.Wor
 We can convert a Word document to a multipage TIFF by following the steps given below:
 
   1. Load a Word document using the _**[Document][9]**_ class.
-  2. Save the document as a TIFF file using the _**[Save()][10]**_ method. It takes the path of the output file as an argument.
+  2. Save the document as a TIFF file using the _**[Save()][10]**_ method. It takes the path of the output file and SaveFormat as arguments.
 
-The following code sample shows how to convert a Word document to a TIFF using Java.
+The following code sample shows **how to convert a Word document to a TIFF using Java**.
 
 {{< gist conholdate-gists f660c0b5e020a77f970c1b87f9eb2661 "WordToTiff_Java_Convert.java" >}}
 
@@ -90,7 +90,7 @@ In this article, we have learned **how to convert a Word document to a TIFF imag
  [1]: https://docs.fileformat.com/image/tiff/
  [2]: https://docs.fileformat.com/word-processing/doc/
  [3]: https://docs.fileformat.com/word-processing/docx/
- [4]: #java-API-to-Convert-Word-to-TIFF
+ [4]: #Java-API-to-Convert-Word-to-TIFF
  [5]: #Convert-Word-Document-to-TIFF-in-java
  [6]: #Customize-Word-to-TIFF-Conversion-in-java
  [7]: https://products.aspose.com/words/java/
