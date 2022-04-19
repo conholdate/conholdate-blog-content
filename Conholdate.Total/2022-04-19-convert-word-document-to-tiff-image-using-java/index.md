@@ -81,7 +81,7 @@ Please try the API without evaluation limitations by requesting [a free temporar
 
 ## Conclusion
 
-In this article, we have learned **how to convert a Word document to a TIFF image using Java**. We have also seen how to apply additional options such as TIFF compression, brightness, and resolution programmatically. Besides, you can learn more about Aspose.Words for Java API using the [documentation][15]. In case of any ambiguity, please feel free to contact us on the [forum][16].
+In this article, we have learned **how to convert a Word document to a TIFF image using Java**. We have also seen how to apply additional options such as TIFF compression, brightness, and image resolution programmatically. Besides, you can learn more about Aspose.Words for Java API using the [documentation][15]. In case of any ambiguity, please feel free to contact us on the [forum][16].
 
 ## See Also
 
