@@ -98,7 +98,7 @@ In the code snippet above, you can see that I have placed a source XML file name
 
 Finally, start the server, and the function to import XML data into Excel should have been executed successfully. Moreover, you can see the output of this method in the image below.
 
-{{< figure align=center src="images/import-xml-into-excel-in-nodejs" alt="Import XML into Excel in Node.js" caption="Import XML data into Excel Spreadsheet">}}
+{{< figure align=center src="images/import-xml-into-excel-in-nodejs.png" alt="Import XML into Excel in Node.js" caption="Import XML data into Excel Spreadsheet">}}
 
 ## Get a Free License
 
