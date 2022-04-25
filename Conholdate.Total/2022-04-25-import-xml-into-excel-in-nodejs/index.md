@@ -106,7 +106,7 @@ Please feel free to use [a free temporary license][17] to use Aspose.Cells for N
 
 ## Conclusion
 
-This brings us to the end of this blog post. We have gone covered the whole process through which you can **import XML into Excel in Node.js**. This article will surely help you if you are looking to opt for a Node.js library to import XML data into Excel file. Further, conholdate.com is in a consistent process to write articles on further interesting topics. Therefore, please stay connected for regular updates.
+This brings us to the end of this blog post. We have gone covered the whole process through which you can **import XML into Excel in Node.js**. This article will surely help you if you are looking to opt for a Node.js library to import XML data into Excel file. Further, [conholdate.com][20] is in a consistent process to write articles on further interesting topics. Therefore, please stay connected for regular updates.
 
 ## Ask a question
 
@@ -135,3 +135,4 @@ Feel free to visit our [forum][18] which is very active to respond to questions 
  [17]: https://purchase.conholdate.com/temporary-license
  [18]: https://forum.conholdate.com/
  [19]: https://blog.conholdate.com/2022/02/17/search-data-in-excel-using-java/
+ [20]: https://www.conholdate.com/
