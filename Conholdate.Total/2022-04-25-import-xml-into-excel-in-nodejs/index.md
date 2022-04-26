@@ -71,32 +71,7 @@ The code snippet will comprise the following classes and methods to **import XML
 
 Now, open the main file of your project and paste the following code snippet that will **import XML data into Excel** programmatically.
 
-```
-// create sheet from stream(e.g. xml to xlsx)
-var aspose = aspose || {};
-
-//get the aspose.cells module in to your project.
-aspose.cells = require("aspose.cells");
-
-// load the fs module for reading/writing files
-var fs = require("fs");
-
-// creates the read stream of the source file
-var readStream = fs.createReadStream("myxml.xml");
-
-// accepts the data stream and populates/import XML data into Excel file
-aspose.cells.Workbook.createWorkbookFromStream(readStream, function(workbook, err) {
-
-  if (err) {
-      console.log("open workbook error");
-      return;
-  }
-
-// save the file 
-  workbook.save('result.xlsx');
-  console.log('Successfully imported XML file to Excel');
-});
-```
+{{< gist conholdate-gists e180758f99fa9f9cb12aa15e869bd9d3 "Import-XML-into-Excel-in-Nodejs.js" >}}
 
 In the code snippet above, you can see that I have placed a source XML file named 'myxml.xml' in my root directory. However, you must have your source XML file that you want to import into Excel sheet.
 
