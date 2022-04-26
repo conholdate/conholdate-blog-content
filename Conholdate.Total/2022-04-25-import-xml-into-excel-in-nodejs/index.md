@@ -30,7 +30,7 @@ We will cover the following points:
 
 [Aspose.cells][6] offers enterprise-level APIs and SDKs to convert, create, edit and manipulate Excel files on any platform. There is a complete package that contains a wide range of features linked to spreadsheet processing. In addition, these APIs are highly scalable, efficient, rich-featured, and available in almost all popular programming languages such as Aspose.Cells for Java, Aspose.Cells for .Net, Aspose.Cells for C++ and more. Aspose.Cells for Node.js is based on Aspose.Cells for Java that provides Excel sheet file conversion, styling, data export/import (i.e. **XML file to Excel**), and many other provisions. Above all, there a comprehensive [documentation][7] available regarding usage along with the example code snippets.
 
-## How to set up Aspose.Cells in Node.js project? {#How-to-set-up-Aspose.Cells-in-Nodejs-project?}
+## How to set up Aspose.Cells in Node.js project? {#How-to-set-up-Aspose.Cells-in-Nodejs-project}
 
 In this section, we will go through the step to enable Aspose.Cells for Node.js on a local machine. You can visit the [docs][8] to know about the installation instructions for your operating system.
 
@@ -119,7 +119,7 @@ Feel free to visit our [forum][18] which is very active to respond to questions 
  [1]: https://docs.fileformat.com/web/xml/
  [2]: https://docs.fileformat.com/spreadsheet/_xlsx/
  [3]: #A-brief-introduction-of-Aspose.Cells
- [4]: #How-to-set-up-Aspose.Cells-in-Nodejs-project?
+ [4]: #How-to-set-up-Aspose.Cells-in-Nodejs-project
  [5]: #Code-snippet-to-populate-XML-into-Excel-Sheet
  [6]: https://products.aspose.com/cells/family/
  [7]: https://apireference.aspose.com/cells/nodejs
