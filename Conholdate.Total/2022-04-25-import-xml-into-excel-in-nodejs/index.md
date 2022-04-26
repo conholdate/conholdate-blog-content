@@ -18,7 +18,7 @@ tags:
 
 {{< figure align=center src="images/import-xml-into-excel.png" alt="Import XML into Excel in Node.js" caption="Import XML data into Excel file.">}}
 
-[Extensible markup language][1] is a widely-used file format for data representation. It is highly efficient when it comes to transferring data from one database to another without any critical data loss. However, tags are used to structure an XML document and page designers can define customized meaningful tags to meet the structural needs. On the other side, businesses are leveraging [Excel sheets][2] as it offers rich data storage options. In addition, you can perform complex calculations and compile raw data. In this blog post, we will learn the steps to install file format manipulation and conversion library and we will show you how can you **import XML into Excel in Node.js programmatically.**.
+[Extensible markup language][1] is a widely-used file format for data representation. It is highly efficient when it comes to transferring data from one database to another without any critical data loss. However, tags are used to structure an XML document and page designers can define customized meaningful tags to meet the structural needs. On the other side, businesses are leveraging [Excel sheets][2] as it offers rich data storage options. In addition, you can perform complex calculations and compile raw data. In this blog post, we will learn the steps to install file format manipulation and conversion library and we will show you how can you **import XML into Excel in Node.js programmatically.**
 
 We will cover the following points:
 
@@ -28,11 +28,11 @@ We will cover the following points:
 
 ## A brief introduction of Aspose.Cells {#A-brief-introduction-of-Aspose.Cells}
 
-[Aspose.cells][6] offers enterprise-level APIs and SDKs to convert, create, edit and manipulate Excel files on any platform. There is a complete package that contains a wide range of features linked to spreadsheet processing. In addition, these APIs are highly scalable, efficient, rich-featured, and available in almost all popular programming languages such as Aspose.Cells for Java, Aspose.Cells for .Net, Aspose.Cells for C++ and more. Aspose.Cells for Node.js is based on Aspose.Cells for Java that provides Excel sheet file conversion, styling, data export/import (i.e. **XML file to Excel**), and many other provisions. Above all, there a comprehensive [documentation][7] available regarding usage along with the example code snippets.
+[Aspose.cells][6] offers enterprise-level APIs and SDKs to convert, create, edit and manipulate Excel files on any platform. There is a complete package that contains a wide range of features linked to spreadsheet processing. In addition, these APIs are highly scalable, efficient, rich-featured, and available in almost all popular programming languages such as [Aspose.Cells for Java][21], [Aspose.Cells for .Net][22], [Aspose.Cells for C++][23] and more. Aspose.Cells for Node.js is based on Aspose.Cells for Java that provides Excel sheet file conversion, styling, data export/import (i.e. **XML file to Excel**), and many other provisions. Above all, there is a comprehensive [documentation][7] available with the example code snippets.
 
 ## How to set up Aspose.Cells in Node.js project? {#How-to-set-up-Aspose.Cells-in-Nodejs-project}
 
-In this section, we will go through the step to enable Aspose.Cells for Node.js on a local machine. You can visit the [docs][8] to know about the installation instructions for your operating system.
+In this section, we will go through the steps to enable **[Aspose.Cells for Node.js][24]** on a local machine. You can visit the [docs][8] to know about the installation instructions for your operating system.
 
 I am using macOS, therefore, I will follow the following steps to set up Aspose.Cells.
 
@@ -42,7 +42,7 @@ Pre-requisites:
   2. [Oracle JDK 1.8][10]
   3. [Python][11]
 
-Once pre-requites are installed, run the following command to install Aspose.Cells from [Npm][12].
+Once pre-requisites are installed, run the following command to install Aspose.Cells from [Npm][12].
 
 ```
 npm install aspose.cells
@@ -94,19 +94,19 @@ aspose.cells.Workbook.createWorkbookFromStream(readStream, function(workbook, er
 });
 ```
 
-In the code snippet above, you can see that I have placed a source XML file named 'myxml.xml'. However, you must have your source XML file that you want to import into Excel sheet.
+In the code snippet above, you can see that I have placed a source XML file named 'myxml.xml' in my root directory. However, you must have your source XML file that you want to import into Excel sheet.
 
-Finally, start the server, and the function to import XML data into Excel should have been executed successfully. Moreover, you can see the output of this method in the image below.
+Finally, start the server, and the function to **import XML data into Excel** should execute successfully. Moreover, you can see the output of this method in the image below.
 
 {{< figure align=center src="images/import-xml-into-excel-in-nodejs.png" alt="Import XML into Excel in Node.js" caption="Import XML data into Excel Spreadsheet">}}
 
 ## Get a Free License
 
-Please feel free to use [a free temporary license][17] to use Aspose.Cells for Node.js beyond evaluation limitations.
+Please feel free to get [a free temporary license][17] to use Aspose.Cells for Node.js beyond evaluation limitations.
 
 ## Conclusion
 
-This brings us to the end of this blog post. We have gone covered the whole process through which you can **import XML into Excel in Node.js**. This article will surely help you if you are looking to opt for a Node.js library to import XML data into Excel file. Further, [conholdate.com][20] is in a consistent process to write articles on further interesting topics. Therefore, please stay connected for regular updates.
+This brings us to the end of this blog post. We have covered the whole process through which you can **import XML into Excel in Node.js**. This article will surely help you if you are looking to opt for a Node.js library to **import XML data into Excel file**. Further, [conholdate.com][20] is in a consistent process to write articles on further interesting topics. Therefore, please stay connected for regular updates.
 
 ## Ask a question
 
@@ -136,3 +136,7 @@ Feel free to visit our [forum][18] which is very active to respond to questions 
  [18]: https://forum.conholdate.com/
  [19]: https://blog.conholdate.com/2022/02/17/search-data-in-excel-using-java/
  [20]: https://www.conholdate.com/
+ [21]: https://products.aspose.com/cells/java/
+ [22]: https://products.aspose.com/cells/net/
+ [23]: https://products.aspose.com/cells/cpp/
+ [24]: https://products.aspose.com/cells/nodejs-java/
