@@ -105,7 +105,7 @@ Feel free to visit our [forum][18] which is very active to respond to questions 
  [11]: https://www.python.org/
  [12]: https://www.npmjs.com/package/aspose.cells
  [13]: https://apireference.aspose.com/cells/nodejs/cells
- [14]: https://apireference.aspose.com/cells/nodejs/Workbook#importXml
+ [14]: https://apireference.aspose.com/cells/nodejs/Workbook
  [15]: https://apireference.aspose.com/cells/nodejs/Workbook#.createWorkbookFromStream
  [16]: https://apireference.aspose.com/cells/nodejs/Workbook#save
  [17]: https://purchase.conholdate.com/temporary-license

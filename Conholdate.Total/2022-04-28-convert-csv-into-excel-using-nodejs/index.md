@@ -18,7 +18,7 @@ tags:
 
 {{< figure align=center src="images/convert-csv-to-excel-nodejs.png" alt="Convert CSV into Excel using Node.js" caption="CSV to Excel Node.js">}}
 
-Recently, we have published a blog post that is about [how to import XML into Excel programmatically using Node.js][1]. However, in this article, we will learn how to convert CSV into Excel using an enterprise-level Node.js library. A [CSV][2](comma separated values) format represents a plain text file that maintains content with comma-separated values. It allows users to save data in a tabular format that can be easily transferred from one database to another. Moreover, [Excel][3] comes with rich data storage, and management features and is backed by [Microsoft][4]. So, we will learn **how to convert CSV into Excel using Node.js** by covering the following points:
+Recently, we have published a blog post that is about [how to import XML into Excel programmatically using Node.js][1]. However, in this article, we will learn how to convert CSV into Excel using an enterprise-level Node.js library. A [CSV][2](comma separated values) format represents a plain text file that maintains content with comma-separated values. Moreover, [Excel][3] comes with rich data storage, and management features and is backed by [Microsoft][4]. So, we will learn **how to convert CSV into Excel using Node.js** by covering the following points:
 
 
   * [How to convert CSV to XLSX][5]
@@ -50,7 +50,7 @@ Now, open your main server file and paste the following code. **You need to plac
 
 After that, start your server and you will find an Excel file named 'result.xlsx' saved in the root of your directory. However, you can see the output in the image below.
 
-{{< figure align=center src="convert-csv-to-xlsx.png" alt="Import XML into Excel in Node.js" caption="Import XML data into Excel Spreadsheet">}}
+{{< figure align=center src="images/convert-csv-to-xlsx.png" alt="Import XML into Excel in Node.js" caption="Import XML data into Excel Spreadsheet">}}
 
 ## Get a Free License
 
@@ -80,7 +80,7 @@ Feel free to visit our [forum][18] which is very active to respond to questions 
  [9]: https://products.aspose.com/cells/family/
  [10]: https://blog.conholdate.com/2022/04/25/import-xml-into-excel-in-nodejs/#How-to-set-up-Aspose.Cells-in-Nodejs-project
  [11]: https://apireference.aspose.com/cells/nodejs/cells
- [12]: https://apireference.aspose.com/cells/nodejs/Workbook#importXml
+ [12]: https://apireference.aspose.com/cells/nodejs/Workbook
  [13]: https://apireference.aspose.com/cells/nodejs/Cells#.importCSVFromStream
  [14]: https://apireference.aspose.com/cells/nodejs/Workbook#save
  [15]: https://apireference.aspose.com/cells/nodejs/Workbook#.createWorkbookFromStream
