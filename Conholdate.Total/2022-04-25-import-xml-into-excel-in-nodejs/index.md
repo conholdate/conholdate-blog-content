@@ -18,19 +18,16 @@ tags:
 
 {{< figure align=center src="images/import-xml-into-excel.png" alt="Import XML into Excel in Node.js" caption="Import XML data into Excel file.">}}
 
-[Extensible markup language][1] is a widely-used file format for data representation. It is highly efficient when it comes to transferring data from one database to another without any critical data loss. However, tags are used to structure an XML document and page designers can define customized meaningful tags to meet the structural needs.
-
-On the other side, businesses are leveraging [Excel sheets][2] as it offers rich data storage options. In addition, you can perform complex calculations and compile raw data. In this blog post, we will learn the steps to install file format manipulation and conversion library and we will show you how can you **import XML into Excel in Node.js programmatically.**
+[Extensible markup language][1] is a widely-used file format for data representation. It is highly efficient when it comes to transferring data from one database to another without any critical data loss and tags are used to structure an XML document. On the other side, businesses are leveraging [Excel sheets][2] as it offers rich data storage options. In this blog post, we will learn the steps to install file format manipulation and conversion library and we will show you how can you **import XML into Excel in Node.js programmatically.**
 
 We will cover the following points:
 
   * [A brief introduction of Aspose.Cells][3]
   * [How to set up Aspose.Cells in Node.js project?][4]
-  * [Code snippet to populate XML into Excel Sheet][5]
+  * [Import XML into Excel in Node.js][5]
 
-## A brief introduction of Aspose.Cells {#A-brief-introduction-of-Aspose.Cells}
+## Node.js Library to Import XML into Excel {#A-brief-introduction-of-Aspose.Cells}
 
-[Aspose.cells][6] offers enterprise-level APIs and SDKs to convert, create, edit and manipulate Excel files on any platform. There is a complete package that contains a wide range of features linked to spreadsheet processing. In addition, these APIs are highly scalable, efficient, rich-featured, and available in almost all popular programming languages such as [Aspose.Cells for Java][21], [Aspose.Cells for .Net][22], [Aspose.Cells for C++][23] and more.
 
 **[Aspose.Cells for Node.js][24]** is based on Aspose.Cells for Java that provides Excel sheet file conversion, styling, data export/import (i.e. **XML file to Excel**), and many other provisions. Above all, there is a comprehensive [documentation][7] available with the example code snippets.
 
@@ -60,20 +57,20 @@ npm install java
 
 That's it. Now, you are all set to start writing code to **import XML data into Excel sheet**.
 
-## Code snippet to populate XML into Excel Sheet {#Code-snippet-to-populate-XML-into-Excel-Sheet}
+## Import XML into Excel in Node.js {#Code-snippet-to-populate-XML-into-Excel-Sheet}
 
 The code snippet will comprise the following classes and methods to **import XML file into Excel** spreadsheet programmatically.
 
-  1. First, import the parent [Cells][13] class to enable Aspose.Cells in your project.
-  2. We will be using [Workbook][14] child class also in this code snippet.
-  3. Call this method [createWorkbookFromStream(stream, callback)][15] that accepts the XML file data as a stream and parses it to the Excel file.
-  4. Another method [save(fileName)][16] will be called to save the file on the root directory of the project.
+  1. Import and create an obect of the [Cells][13] class.
+  2. Create the read stream of the source file(i.e. XML file) using [fs][25] module.
+  3. Call this method [createWorkbookFromStream(stream, callback)][15] of [Workbook][14] class to creates a Workbook based on the file data stream.
+  4. Save the file using [save(fileName)][16] method.
 
 Now, open the main file of your project and paste the following code snippet that will **import XML data into Excel** programmatically.
 
 {{< gist conholdate-gists e180758f99fa9f9cb12aa15e869bd9d3 "Import-XML-into-Excel-in-Nodejs.js" >}}
 
-In the code snippet above, you can see that I have placed a source XML file named 'myxml.xml' in my root directory. However, you must have your source XML file that you want to import into Excel sheet.
+In the code snippet above, you can see that I have placed a source XML file named 'myxml.xml' in my root directory. **However, you must have your source XML file that you want to import into Excel sheet.**
 
 Finally, start the server, and the function to **import XML data into Excel** should execute successfully. Moreover, you can see the output of this method in the image below.
 
@@ -101,7 +98,7 @@ Feel free to visit our [forum][18] which is very active to respond to questions 
  [4]: #How-to-set-up-Aspose.Cells-in-Nodejs-project
  [5]: #Code-snippet-to-populate-XML-into-Excel-Sheet
  [6]: https://products.aspose.com/cells/family/
- [7]: https://apireference.aspose.com/cells/nodejs
+ [7]: https://apireference.aspose.com/cells/nodejs=
  [8]: https://docs.aspose.com/cells/nodejsjava/getting-started/
  [9]: https://nodejs.org/en/download/
  [10]: https://www.oracle.com/java/technologies/downloads/
@@ -119,3 +116,4 @@ Feel free to visit our [forum][18] which is very active to respond to questions 
  [22]: https://products.aspose.com/cells/net/
  [23]: https://products.aspose.com/cells/cpp/
  [24]: https://products.aspose.com/cells/nodejs-java/
+ [25]: https://nodejs.dev/learn/the-nodejs-fs-module
