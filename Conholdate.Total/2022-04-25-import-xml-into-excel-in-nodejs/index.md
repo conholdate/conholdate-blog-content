@@ -22,7 +22,7 @@ tags:
 
 We will cover the following points:
 
-  * [A brief introduction of Aspose.Cells][3]
+  * [Node.js Library to Import XML into Excel][3]
   * [How to set up Aspose.Cells in Node.js project?][4]
   * [Import XML into Excel in Node.js][5]
 
