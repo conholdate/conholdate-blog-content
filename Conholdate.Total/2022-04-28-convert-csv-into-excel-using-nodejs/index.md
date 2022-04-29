@@ -46,7 +46,7 @@ We will follow the following steps to complete the workflow:
 Now, open your main server file and paste the following code. **You need to place your source CSV file as I have the source file 'sample.csv' placed in the root directory**. 
 
 
-{{< gist conholdate-gists 8c541a79672b1beac9de511697dc2aa8 " Convert CSV into Excel using Node.js " caption="CSV to Excel Node.js" >}}
+{{< gist conholdate-gists 8c541a79672b1beac9de511697dc2aa8 " Convert CSV into Excel using Node.js" >}}
 
 After that, start your server and you will find an Excel file named 'result.xlsx' saved in the root of your directory. However, you can see the output in the image below.
 
@@ -74,7 +74,7 @@ Feel free to visit our [forum][18] which is very active to respond to questions 
  [3]: https://docs.fileformat.com/spreadsheet/_xlsx/
  [4]: https://www.microsoft.com/
  [5]: #How-to-convert-CSV-to-XLSX
- [6]: #How-to-convert-CSV-to-XLSX-in-Nodejs
+ [6]: #How-to-convert-CSV-to-XLSX-in
  [7]: #Nodejs-library-to-convert-CSV-into-Excel
  [8]: https://www.fileformat.com/
  [9]: https://products.aspose.com/cells/family/
