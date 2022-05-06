@@ -1,8 +1,8 @@
 ---
-title: 'How to Edit Excel Sheet programmatically in Node.js'
+title: 'How to Edit Excel Sheet Programmatically in Node.js'
 author: Muhammad Mustafa
 date: 2022-05-06T07:56:46+00:00
-summary: "Use a robust Node.js library if you are wondering **How to edit Excel sheet in Node.js programmatically**. Search & replace data, edit specific cells using Node.js."
+summary: "Use a robust Node.js library to learn **How to edit Excel sheet in Node.js programmatically**. Search & replace data, edit specific cells using Node.js."
 url: /2022/05/06/how-to-edit-excel-sheet-programmatically-in-nodejs/
 categories:
   - Conholdate.Cells Product Family
@@ -60,7 +60,7 @@ Now, start the server and you will see the output as shown below in the image.
 
 {{< figure align=center src="images/Edit-Excel-Sheet-in-Nodejs.png" alt="How to Edit Excel Sheet in Node.js" caption="How to Edit Excel Sheet in Node.js">}}
 
-## How to edit cells in Excel programmatically? {#How-to-edit-cells-in-Excel-programmatically?}
+## How to edit cells in Excel programmatically? {#How-to-edit-cells-in-Excel-programmatically}
 
 [Node.js Excel library][6] also lets you update a value in a specific cell of an Excel sheet. Follow the following steps to achieve this functionality in your Node.js file:
 
@@ -110,7 +110,7 @@ Feel free to visit our [forum][18] which is very active to respond to questions 
  [1]: https://docs.fileformat.com/spreadsheet/_xlsx/
  [2]: #Nodejs-library-to-edit-Excel-file
  [3]: #Search-and-replace-in-Excel-using-Nodejs
- [4]: #How-to-edit-cells-in-Excel-programmatically?
+ [4]: #How-to-edit-cells-in-Excel-programmatically
  [5]: #Clear-data-from-Excel-spreadsheet
  [6]: https://apireference.aspose.com/cells/nodejs
  [7]: https://blog.conholdate.com/2022/04/25/import-xml-into-excel-in-nodejs/
