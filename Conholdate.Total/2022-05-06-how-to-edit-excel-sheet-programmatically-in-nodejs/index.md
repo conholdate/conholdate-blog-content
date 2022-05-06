@@ -54,7 +54,7 @@ The following are the steps to perform this action programmatically.
   3. Call the [replace(placeHolder, newValue)][11] method to search a value and replace it with a new value.
   4. Save the file using [save(fileName)][12] method.
 
-The following code sample demonstrates how to search and replace text in an Excel file using Node.js
+The following code sample demonstrates how to search and replace text in an Excel file using Node.js.
 
 {{< gist conholdate-gists 1157cf4321ac86dd6cca73bc2735c71c "How-to-Edit-Excel-Sheet-in-Nodejs.js" >}}
 
@@ -64,7 +64,7 @@ Now, start the server and you will see the output as shown below in the image.
 
 ## How to edit cells in Excel programmatically? {#How-to-edit-cells-in-Excel-programmatically}
 
-[Node.js Excel library][6] also lets you update a value in a specific cell of an Excel sheet. Please follow the steps below to achieve this functionality.:
+[Node.js Excel library][6] also lets you update a value in a specific cell of an Excel sheet. Follow the following steps to achieve this functionality in your Node.js file:
 
   1. Create an object of the [Cells][9] class.
   2. Create an object of the [WorkBook][10] child class by instantiating it with an XLSX file.
@@ -75,11 +75,11 @@ Now, start the server and you will see the output as shown below in the image.
 
   The out of this code snippet will be something like shown in the image below.
 
-  {{< figure align=center src="images/how-to-edit-spreadsheet.png" alt="how to edit spreadsheet" caption="how to edit spreadsheet">}}
+  {{< figure align=center src="images/how-to-edit-spreadsheet.png" alt="how to edit spreadsheet" caption="Edit cells in Excel programmatically">}}
 
 ## Clear data from Excel spreadsheet {#Clear-data-from-Excel-spreadsheet}
 
-In this section, we will learn how can we clear data from an Excel sheet using Node.js programmatically. We will perform the following steps:
+In this section, we will learn how we can clear data from an Excel sheet using Node.js programmatically. We will perform the following steps:
 
   1. Create an object of the [Cells][9] class.
   2. Instantiates [WorkBook][10] child class with an XLSX file.
@@ -90,7 +90,7 @@ In this section, we will learn how can we clear data from an Excel sheet using N
 
 Start the server and you may see the output shown in the image below.
 
-{{< figure align=center src="images/ Nodejs-Excel-library.png" alt=" Nodej.s Excel library" caption=" Nodej.s Excel library">}}
+{{< figure align=center src="images/ Nodejs-Excel-library.png" alt=" Nodej.s Excel library" caption="Clear data from Excel sheet using Node.js library">}}
 
 ## Get a Free License
 
@@ -98,11 +98,11 @@ You may use [a free temporary license][17] to use Aspose.Cells for Node.js witho
 
 ## Conclusion
 
- This brings us to the end of this blog post. We have gone learned **how to edit Excel Sheet in Node.js programmatically**. We have used the [Node.js Excel library][6] to edit a specific cell and clear the file data. There are many further methods available [here][25] that you may explore and practice yourself. Further, [conholdate.com][26] is consistently writing on new topics. Therefore, please stay connected for regular updates. 
+ This brings us to the end of this blog post. We have learned **how to edit Excel Sheets in Node.js programmatically**. We have used the [Node.js Excel library][6] to edit a specific cell and clear the file data. There are many further methods available [here][25] that you may explore and practice yourself. Further, [conholdate.com][26] is consistently writing on new topics. Therefore, please stay connected for regular updates. 
 
 ## Ask a question
 
-Feel free to visit our [forum][18] which is very active to respond to questions and queries/discussions.
+If you have any questions, please feel free to contact us on the [forum][18].
 
 ## See Also
 
