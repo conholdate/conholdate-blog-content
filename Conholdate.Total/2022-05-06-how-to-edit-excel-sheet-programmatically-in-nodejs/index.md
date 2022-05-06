@@ -20,7 +20,7 @@ tags:
 
 [MS Excel][1] is an integral component of any business operational structure as it offers a stack of rich features such as data entry, complex calculations, data analysis, report generation, task management, and many more. Users can perform financial analysis and then visualize the data using charts. Moreover, data changes occur so often, and Excel spreadsheets need to be updated to reflect those changes. However, we can save time by automating this whole process. In this article, we will learn **how to edit Excel Sheet in Node.js programmatically.**
 
-We will cover the following are the points:
+We will cover the following topics in this article:
 
 
   * [Node.js library to edit Excel file][2]
