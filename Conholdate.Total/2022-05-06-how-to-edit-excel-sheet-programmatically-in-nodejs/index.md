@@ -40,7 +40,7 @@ npm install aspose.cells
 npm install java
 ```
 
-Please follow this [blog post][7] to know about the complete setup info and pre-requisites. Also, you may explore the [library][8], as there is comprehensive documentation available regarding usage.
+Please follow this [blog post][7] to know about the complete setup info and pre-requisites.
 
 **Note: You must have a source XLSX file in the root directory of your project as we have placed the "sample.xlsx" file in this tutorial.**
 
