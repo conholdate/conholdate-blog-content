@@ -61,7 +61,7 @@ That's it. Now, you are all set to start writing code to **import XML data into 
 
 The code snippet will comprise the following classes and methods to **import XML file into Excel** spreadsheet programmatically.
 
-  1. Import and create an obect of the [Cells][13] class.
+  1. Import and create an object of the [Cells][13] class.
   2. Create the read stream of the source file(i.e. XML file) using [fs][25] module.
   3. Call this method [createWorkbookFromStream(stream, callback)][15] of [Workbook][14] class to creates a Workbook based on the file data stream.
   4. Save the file using [save(fileName)][16] method.
