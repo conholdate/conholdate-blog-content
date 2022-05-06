@@ -47,12 +47,14 @@ Please follow this [blog post][7] to know about the complete setup info and pre-
 
 ## Search and replace in Excel using Node.js {#Search-and-replace-in-Excel-using-Nodejs}
 
-The search and replace method offers a great deal when there is a huge amount of data stored in an Excel spreadsheet. However, the following are the steps and code snippet to perform this action programmatically:
+The following are the steps to perform this action programmatically.
 
   1. Import and create an object of the [Cells][9] class.
   2. Instantiates the [WorkBook][10] child class with an XLSX file.
   3. Call the [replace(placeHolder, newValue)][11] method to search a value and replace it with a new value.
   4. Save the file using [save(fileName)][12] method.
+
+The following code sample demonstrates how to search and replace text in an Excel file using Node.js
 
 {{< gist conholdate-gists 1157cf4321ac86dd6cca73bc2735c71c "How-to-Edit-Excel-Sheet-in-Nodejs.js" >}}
 
@@ -62,7 +64,7 @@ Now, start the server and you will see the output as shown below in the image.
 
 ## How to edit cells in Excel programmatically? {#How-to-edit-cells-in-Excel-programmatically}
 
-[Node.js Excel library][6] also lets you update a value in a specific cell of an Excel sheet. Follow the following steps to achieve this functionality in your Node.js file:
+[Node.js Excel library][6] also lets you update a value in a specific cell of an Excel sheet. Please follow the steps below to achieve this functionality.:
 
   1. Create an object of the [Cells][9] class.
   2. Create an object of the [WorkBook][10] child class by instantiating it with an XLSX file.
