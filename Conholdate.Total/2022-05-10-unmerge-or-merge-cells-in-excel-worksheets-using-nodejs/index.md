@@ -18,18 +18,18 @@ tags:
 
 {{< figure align=center src="images/Unmerge-or-Merge-Cells-in-Excel-Worksheet-using-Nodejs.png" alt="unMerge or Merge Excel cells in Node.js" caption="unMerge or Merge Excel cells in Node.js">}}
 
-Working with [Excel sheets][1] becomes a challenging task when a huge amount of data is to be managed or manipulated. Merging or unMerging cells in an Excel worksheet is a frequent operation performed by the users. It lets you merge multiple cells and rows to place content in the center. Therefore, automating this whole process will bring efficiency and robustness and there will be no chance of data loss. However, in this blog post, we will **unMerge or merge Excel cells in Node.js programmatically**. 
+Working with [Excel sheets][1] becomes a challenging task when a huge amount of data is to be managed or manipulated. Merging or unMerging cells in an Excel worksheet is a frequent operation performed by the users. It lets you merge multiple cells and rows to place content in the center. Therefore, automating this whole process will bring efficiency and robustness and there will be no chance of data loss. However, in this blog post, we will **unMerge or merge cells in Excel sheets using Node.js**. 
 
 We will cover the following points in this blog post:
 
 
-  * [Merge cells in Excel Sheets using Node.js][2]
+  * [Merge Excel cells in Node.js programmatically][2]
   * [Node.js library to UnMerge cells in Excel Sheets][3]
   * [How to clear content of a range in an Excel Sheet?][4]
 
 **Note: Place a source XLSX file in the project root directory as we have placed the “sample.xlsx” file in this article.**
 
-## Merge cells in Excel Sheets using Node.js {#Merge-cells-in-Excel-Sheets-using-Nodejs}
+## Merge Excel cells in Node.js programmatically {#Merge-cells-in-Excel-Sheets-using-Nodejs}
 
 [Node.js Excel library][5] provides powerful methods to merge several cells of an Excel worksheet programmatically.
 
@@ -92,7 +92,7 @@ You can try [a free temporary license][12] to use Aspose.Cells for Node.js witho
 
 ## Conclusion
 
- This is the end of this blog post. We have gone through some important topics such as **unMerge or merge cells in Excel worksheets using Node.js** and clearing data from a specific range of cells. There are some other relevant methods available that you may explore in this [Node.js Excel library][6]. Moreover, [conholdate.com][13] is in a consistent process of writing new articles. Therefore, please stay connected for regular updates. 
+ This is the end of this blog post. We have gone through some important topics such as **unMerge or merge cells in Excel sheets using Node.js** and clearing data from a specific range of cells. There are some other relevant methods available that you may explore in this [Node.js Excel library][6]. Moreover, [conholdate.com][13] is in a consistent process of writing new articles. Therefore, please stay connected for regular updates. 
 
 ## Ask a question
 
