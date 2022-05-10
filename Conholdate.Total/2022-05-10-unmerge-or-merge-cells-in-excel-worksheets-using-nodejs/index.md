@@ -16,7 +16,7 @@ tags:
 ---
 
 
-{{< figure align=center src="images/Unmerge or Merge Cells-in-Excel-Worksheet-using-Nodejs.png" alt="unMerge or Merge Excel cells in Node.js" caption="unMerge or Merge Excel cells in Node.js">}}
+{{< figure align=center src="images/Unmerge-or-Merge-Cells-in-Excel-Worksheet-using-Nodejs.png" alt="unMerge or Merge Excel cells in Node.js" caption="unMerge or Merge Excel cells in Node.js">}}
 
 Working with [Excel sheets][1] becomes a challenging task when a huge amount of data is to be managed or manipulated. Merging or unMerging cells in an Excel worksheet is a frequent operation performed by the users. It lets you merge multiple cells and rows to place content in the center. Therefore, automating this whole process will bring efficiency and robustness and there will be no chance of data loss. However, in this blog post, we will **unMerge or merge Excel cells in Node.js programmatically**. 
 
@@ -42,7 +42,7 @@ Following are the steps to **merge cells in an Excel Sheet using Node.js**:
 
 The following code snippet is to merge cells in an Excel Sheet programmatically.
 
-{{< gist conholdate-gists 10e7991c5128cb8bcb7b9e7634c331b0 "file-merge-cells-in-excel-sheets-using-nodejs.js" >}}
+{{< gist conholdate-gists 10e7991c5128cb8bcb7b9e7634c331b0 "merge-cells-in-Excel-Sheets-using-Nodejs.js" >}}
 
 The output of the above code snippet can be seen below in the image.
 
@@ -62,7 +62,7 @@ We can achieve this functionality by following the steps mentioned below:
 
 The code snippet is mentioned below to unMerge cells in an Excel worksheet using Node.js.
 
-{{< gist conholdate-gists 10e7991c5128cb8bcb7b9e7634c331b0 "file-nodejs-library-to-unmerge-cells-in-excel-sheets.js" >}}
+{{< gist conholdate-gists 10e7991c5128cb8bcb7b9e7634c331b0 "nodejs-library-to-unMerge-cells-in-Excel-sheets.js" >}}
 
 Now, start the server and you will see the output as shown below in the image.
 
@@ -79,7 +79,7 @@ Perform the following steps to **clear data from a specified range of cells in a
 
   Copy and paste the following code snippet into your main file to **clear data from a range in an Excel worksheet**.
 
-  {{< gist conholdate-gists 10e7991c5128cb8bcb7b9e7634c331b0 "file-clear-content-of-a-range-in-an-excel-sheet-js" >}}
+  {{< gist conholdate-gists 10e7991c5128cb8bcb7b9e7634c331b0 "clear-content-of-a-range-in-an-Excel-sheet.js" >}}
 
   The output of this code snippet will be something like shown in the image below.
 
