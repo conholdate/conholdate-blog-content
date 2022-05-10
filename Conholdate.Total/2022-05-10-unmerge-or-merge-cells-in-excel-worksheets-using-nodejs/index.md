@@ -10,7 +10,7 @@ tags:
   - UnMerge or Merge cells in Excel Sheets using Node.js
   - UnMerge cells in Excel
   - Excel unmerge cells
-  - Combine cells in Excel
+  - Combine cells in Excel using Node.js
   - nodejs excel
 
 ---
@@ -46,7 +46,7 @@ The following code snippet is to merge cells in an Excel Sheet programmatically.
 
 The output of the above code snippet can be seen below in the image.
 
-{{< figure align=center src="images/combine-cells-in-Excel.png" alt="combine cells in Excel" caption="Combine cells in Excel">}}
+{{< figure align=center src="images/combine-cells-in-Excel.png" alt="combine cells in Excel" caption="Combine cells in Excel using Node.js">}}
 
 
 ## Node.js library to UnMerge cells in Excel Sheets {#Nodejs-library-to-UnMerge-cells-in-Excel-Sheets}
@@ -57,7 +57,7 @@ We can achieve this functionality by following the steps mentioned below:
 
   1. Create an object of the [Cells][6] class.
   2. Initialize an object of the [WorkBook][7] child class and initialize it with an Excel file.
-  3. Access your Excel sheet and call the [unMerge(firstRow, firstColumn, totalRows, totalColumns)][10] method to unMerge cells in an Excel sheet. 
+  3. Access your Excel sheet and call the [unMerge(firstRow, firstColumn, totalRows, totalColumns)][10] method to **unMerge cells in an Excel sheet programmatically**. 
   4. Save the file using [save(fileName)][9] method.
 
 The code snippet is mentioned below to unMerge cells in an Excel worksheet using Node.js.
@@ -73,7 +73,7 @@ Now, start the server and you will see the output as shown below in the image.
 Perform the following steps to **clear data from a specified range of cells in an Excel worksheet programmatically in a Node.js app**:
 
   1. Initialize an object of the [Cells][6] class.
-  2. Now, create an object of the [WorkBook][7] child class and Instantiate it with an Excel file.
+  2. Now, create an object of the [WorkBook][7] child class and instantiate it with an Excel file.
   3. Call the [clearContents(startRow, startColumn, endRow, endColumn)][11] method to delete data of a range of cells in an Excel file.
   4. Save the file using the [save(fileName)][9] method.
 
@@ -92,7 +92,7 @@ You can try [a free temporary license][12] to use Aspose.Cells for Node.js witho
 
 ## Conclusion
 
- This is the end of this blog post. We have gone through some important topics such as unMerge or merge cells in Excel worksheets using Node.js and clearing data from a specific range of cells. There are some other relevant methods available that you may explore in this [Node.js Excel library][6]. Moreover, [conholdate.com][13] is in a consistent process of writing new articles. Therefore, please stay connected for regular updates. 
+ This is the end of this blog post. We have gone through some important topics such as **unMerge or merge cells in Excel worksheets using Node.js** and clearing data from a specific range of cells. There are some other relevant methods available that you may explore in this [Node.js Excel library][6]. Moreover, [conholdate.com][13] is in a consistent process of writing new articles. Therefore, please stay connected for regular updates. 
 
 ## Ask a question
 
