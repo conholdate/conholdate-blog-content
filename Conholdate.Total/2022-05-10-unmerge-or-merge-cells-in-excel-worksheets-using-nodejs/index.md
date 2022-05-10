@@ -83,7 +83,7 @@ Perform the following steps to **clear data from a specified range of cells in a
 
   The output of this code snippet will be something like shown in the image below.
 
-  {{< figure align=center src="images/clear-content-of-a-range.png" alt="clear content of a range" caption="Edit cells in Excel programmatically">}}
+  {{< figure align=center src="images/clear-content-of-a-range.png" alt="clear content of a range" caption="clear content of a range in an Excel sheet">}}
 
 
 ## Get a Free License
