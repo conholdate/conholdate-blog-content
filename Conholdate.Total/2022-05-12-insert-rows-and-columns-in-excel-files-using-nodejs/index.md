@@ -18,7 +18,7 @@ tags:
 
 {{< figure align=center src="images/insert-rows-and-columns-in-excel-using-Nodejs.png" alt="insert rows and columns in Excel files using Node.js" caption="insert rows and columns in Excel files using Node.js">}}
 
-[Microsoft Excel][1] is one of the leading and most widely used software in this world of technology. Most organizations leverage this software for various purposes and maintain huge amount of data in Excel files. In addition, modifying several data files manually is always a hassle. Therefore, we will learn how to **insert rows and columns in Excel files programmatically using Nodejs**. However, automating this process will provide efficiency and a competitive edge to the businesses.
+[Microsoft Excel][1] is one of the leading and most widely used software in this world of technology. Most organizations leverage this software for various purposes and maintain a huge amount of data in Excel files. In addition, modifying several data files manually is always a hassle. In this blog post, we will learn how to **insert rows and columns in Excel files programmatically using Nodejs**. However, automating this process will provide efficiency and a competitive edge to the business.
 
 The following points will be covered in this blog post:
 
@@ -29,7 +29,7 @@ The following points will be covered in this blog post:
 
 ## Insert rows and columns in Excel files using Node.js - API installation {#Insert-rows-and-columns-in-Excel-files-using-Nodejs}
 
-We will use a powerful [Node.js Excel library][5] to insert rows and columns in an Excel sheet programmatically. You can easily install it by running the following commands in the terminal.
+We will use a powerful [Node.js Excel library][5] to insert rows and columns in an Excel sheet programmatically. You can easily install by running the following commands in the terminal.
 
 ```
 npm install java
@@ -39,6 +39,7 @@ npm install aspose.cells
 ```
 
 You can visit this [link][6] to know further about the installation procedure.
+
 **Note: Place a source XLSX file in the project root directory as we have placed the “sample.xlsx” file in this article.**
 
 ## Insert multiple rows in Excel Worksheets Code Example {#Insert-multiple-rows-in-Excel-Worksheets-Code-Example}
@@ -46,11 +47,11 @@ You can visit this [link][6] to know further about the installation procedure.
 In this section, we will go through the following steps and the code snippet to **insert rows in an Excel file using Node.js.**
 
   1. Create an object of the [Cells][7] class.
-  2. Load an Excel file(i.e.sample.xlsx) by initializing an object of the [WorkBook][8] child class.
+  2. Load an Excel file(i.e. sample.xlsx) by initializing an object of the [WorkBook][8] child class.
   3. Call the [insertRows(rowIndex, totalRows, options)][9] method to insert as many rows as needed anywhere in the worksheet.
   4. Save the file using the [save(fileName)][10] method.
 
-The following code snippet is to merge cells in an Excel Sheet programmatically.
+The following code snippet is to insert multiple rows in an Excel Worksheet programmatically.
 
 {{< gist conholdate-gists 3182b30debbddf9e3082fab78b0d53ea "insert-multiple-rows-in-Excel-Worksheets.js" >}}
 
@@ -68,7 +69,7 @@ Following are the steps to insert columns in the Excel worksheet using Node.js.
   1. Import and create an object of the [Cells][7] class.
   2. Create an object of the [WorkBook][8] child class by initializing it with an Excel file.
   3. Now, invoke the [insertColumns(columnIndex, totalColumns)][11] method to insert columns into the Excel worksheet.
-  4. Finally, [save(fileName)][10] method saves the file into the root directory.
+  4. Finally, the [save(fileName)][10] method saves the file into the root directory.
 
 Copy and paste the code snippet mentioned below to **insert columns in an Excel File programmatically using Node.js.**
 
@@ -88,7 +89,7 @@ This blog post ends here. We have gone through how to **insert rows and columns 
 
 ## Ask a question
 
-You can share your questions or queries on our [forum.][14]
+In case of any queries please feel free to write to us at the [forum.][18]
 
 ## See Also
 
@@ -110,3 +111,4 @@ You can share your questions or queries on our [forum.][14]
  [12]: https://purchase.conholdate.com/temporary-license
  [13]: https://docs.aspose.com/cells/
  [14]: https://conholdate.com/
+ [18]: https://forum.conholdate.com/
