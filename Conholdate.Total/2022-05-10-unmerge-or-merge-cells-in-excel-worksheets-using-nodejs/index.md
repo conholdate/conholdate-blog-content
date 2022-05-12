@@ -92,7 +92,7 @@ You can try [a free temporary license][12] to use Aspose.Cells for Node.js witho
 
 ## Conclusion
 
- This is the end of this blog post. We have gone through some important topics such as **unMerge or merge cells in Excel sheets using Node.js** and clearing data from a specific range of cells. There are some other relevant methods available that you may explore in this [Node.js Excel library][6]. In addition, Please explore the [documentation][18] to read more about Aspose.Cells for Node.js. Moreover, [conholdate.com][13] is in a consistent process of writing new articles. Therefore, please stay connected for regular updates. 
+ This is the end of this blog post. We have gone through some important topics such as **unMerge or merge cells in Excel sheets using Node.js** and clearing data from a specific range of cells. There are some other relevant methods available that you may explore in this [Node.js Excel library][6]. In addition, please explore the [documentation][18] to read more about Aspose.Cells for Node.js. Moreover, [conholdate.com][13] is in a consistent process of writing new articles. Therefore, please stay connected for regular updates. 
 
 ## Ask a question
 
