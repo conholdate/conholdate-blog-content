@@ -40,7 +40,7 @@ npm install aspose.cells
 
 You can visit this [link][6] to know further about the installation procedure.
 
-**Note: Place a source XLSX file in the project root directory as we have placed the “sample.xlsx” file in this article.**
+**Note: A source XLSX file in the project root directory should be placed to test the functionalities.**
 
 ## Insert multiple rows in Excel Worksheets Code Example {#Insert-multiple-rows-in-Excel-Worksheets-Code-Example}
 
@@ -96,19 +96,24 @@ In case of any queries please feel free to write to us at the [forum.][18]
   * [Import XML into Excel in Node.js][15]
   * [How to Edit Excel Sheet Programmatically in Node.js][16]
   * [Convert CSV into Excel using Node.js][17]
+  * [UnMerge or Merge Cells in Excel Worksheets using Node.js][19]
 
  [1]: https://docs.fileformat.com/spreadsheet/_xlsx/
  [2]: #Insert-rows-and-columns-in-Excel-files-using-Nodejs
  [3]: #Insert-multiple-rows-in-Excel-Worksheets-Code-Example
  [4]: #Nodejs-library-to-insert-columns-in-Excel-Sheets
  [5]: https://apireference.aspose.com/cells/nodejs
- [6]: https://blog.conholdate.com/2022/04/25/import-xml-into-excel-in-nodejs/
+ [6]: https://blog.conholdate.com/2022/04/25/import-xml-into-excel-in-nodejs/#How-to-set-up-Aspose.Cells-in-Nodejs-project
  [7]: https://apireference.aspose.com/cells/nodejs/cells
  [8]: https://apireference.aspose.com/cells/nodejs/Workbook
- [9]: https://apireference.aspose.com/cells/nodejs/Workbook
+ [9]: https://apireference.aspose.com/cells/nodejs/Cells#insertRow
  [10]: https://apireference.aspose.com/cells/nodejs/Workbook#save
  [11]: https://apireference.aspose.com/cells/nodejs/Cells#insertColumns
  [12]: https://purchase.conholdate.com/temporary-license
  [13]: https://docs.aspose.com/cells/
  [14]: https://conholdate.com/
+ [15]: https://blog.conholdate.com/2022/04/25/import-xml-into-excel-in-nodejs/
+ [16]: https://blog.conholdate.com/2022/05/06/how-to-edit-excel-sheet-programmatically-in-nodejs/
+ [17]: https://blog.conholdate.com/2022/04/28/convert-csv-into-excel-using-nodejs/
  [18]: https://forum.conholdate.com/
+ [19]: https://blog.conholdate.com/2022/05/10/unmerge-or-merge-cells-in-excel-worksheets-using-nodejs/
