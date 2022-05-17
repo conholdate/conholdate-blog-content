@@ -16,7 +16,7 @@ tags:
 ---
 
 
-{{< figure align=center src="images/convert-svg-to-pdf-programmatically-in-java" alt="Convert SVG to PDF Programmatically in Java" caption="SVG to PDF Java Library">}}
+{{< figure align=center src="images/convert-svg-to-pdf-programmatically-in-java.png" alt="Convert SVG to PDF Programmatically in Java" caption="SVG to PDF Java Library">}}
 
 [Scalable Vector Graphics(SVG)][1] is a popular digital image file format with optimized characteristics. SVG graphics are scalable, programmable, and capable of powerful animations. In addition, SVG images are based on vector files that accumulate images as a set of points and their connections with one another. On the other side, [PDF][2] is another enterprise-level vector-graphic format. It is widely used in the corporate sector due to its security, compression, and other vigorous features. In this blog post, we will go through how to **convert SVG to PDF programmatically in a Java-based application**.
 
