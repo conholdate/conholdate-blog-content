@@ -62,9 +62,9 @@ Following are the steps to convert SVG to PDF using the Java library:
   1. Initialize an object of the [SVGDocument][7] class with the source SVG file.
   2. Create an object of [pdfSaveOptions][8] class to access advance methods related to document [setJpegQuality][9], [setImageCompression][10] etc.
   3. Call this [setJpegQuality(int value)][9] method to specify the quality of JPEG compression for images.
-  4. Invoke [convertSVG(SVGDocument document, PdfSaveOptions options, java.util.Collection providedInputStreams)][11] to convert SVG image to PDF file.
+  4. Invoke [convertSVG(SVGDocument document, PdfSaveOptions options, java.util.Collection providedInputStreams)][11] method to convert SVG image to PDF file.
 
-Now, copy and paste the following code snippet to convert SVG to PDF programmatically.
+Now, copy and paste the following code snippet to **convert SVG to PDF programmatically**.
 
 {{< gist conholdate-gists 05c0059e26b7f25dea26c2f127211ed7 "convert-svg-to-pdf-programmatically-in-java.java" >}}
 
@@ -78,7 +78,7 @@ We are ending this blog post here. It is important to note that we have gone thr
 
 ## Ask a question
 
-In case of any queries please feel free to write to us at the [forum.][18]
+In case of any queries please feel free to write to us at the [forum.][22]
 
 ## See Also
 
@@ -108,3 +108,4 @@ In case of any queries please feel free to write to us at the [forum.][18]
  [19]: https://blog.conholdate.com/2022/02/19/convert-pdf-to-html-using-java/
  [20]: https://blog.conholdate.com/2022/04/25/import-xml-into-excel-in-nodejs/
  [21]: https://blog.conholdate.com/2022/05/10/unmerge-or-merge-cells-in-excel-worksheets-using-nodejs/
+ [22]: https://forum.conholdate.com/
