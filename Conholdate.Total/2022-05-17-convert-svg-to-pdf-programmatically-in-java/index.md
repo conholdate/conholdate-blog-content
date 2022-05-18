@@ -68,13 +68,10 @@ Now, copy and paste the following code snippet to **convert SVG to PDF programma
 
 {{< gist conholdate-gists 05c0059e26b7f25dea26c2f127211ed7 "convert-svg-to-pdf-programmatically-in-java.java" >}}
 
-**SVG**
+**SVG to PDF**
 
-{{< figure align=center src="images/svg.png" alt="Convert SVG to PDF in Java" caption="Convert SVG to PDF in Java">}}
+{{< figure align=center src="images/svg-to-pdf.png" alt="Convert SVG to PDF in Java" caption="Convert SVG to PDF in Java">}}
 
-**PDF**
-
-{{< figure align=center src="images/pdf.png" alt="Convert SVG to PDF Programmatically" caption="Convert SVG to PDF Programmatically">}}
 
 ## Get a Free License
 
