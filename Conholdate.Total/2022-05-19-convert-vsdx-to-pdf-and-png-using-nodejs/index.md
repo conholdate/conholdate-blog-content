@@ -18,7 +18,7 @@ tags:
 
 {{< figure align=center src="images/Convert-VSD-to-PDF-in-nodejs.png" alt="Convert VSDX to PDF in Node.js" caption="Convert VSDX to PDF in Node.js">}}
 
-[Aspose.Diagram][1] offers a set of provisions to manipulate Microsoft [Visio][2] diagrams. You can automate the processes of updating, exporting, and creating Visio diagrams in Node.js-based applications. Aspose.Diagram for Node.js library provides features to convert Visio files to other popular file formats such as [PDF][3], PNG, and more. In addition, you can export & print the diagrams in no time. However, in this blog post, we will demonstrate how to **convert VSDX to PDF in Node.js application**.
+[Aspose.Diagram][1] offers a set of provisions to manipulate Microsoft [Visio][2] diagrams. It let's you automate the processes of updating, exporting, and creating Visio diagrams in Node.js-based applications. Aspose.Diagram for Node.js library provides features to convert Visio files to other popular file formats such as [PDF][3], PNG, and more. In addition, you can export & print the diagrams in no time. However, in this blog post, we will demonstrate how to **convert VSDX to PDF in Node.js application programmatically**.
 
 The following points will be covered in this article:
 
