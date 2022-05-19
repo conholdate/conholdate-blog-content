@@ -27,7 +27,7 @@ The following points will be covered in this article:
   * [How to convert VSDX to PDF in Node.js][5]
   * [Node.js library to convert VSDX to PNG][6]
 
-## Convert VSDX to PDF and PNG using Node.js - Visio API installation {#Nodejs-library-to-convert-VSDX-to-PNG}
+## Convert VSDX to PDF and PNG using Node.js - Visio API installation {#Convert-VSDX-to-PDF-and-PNG-using-Nodejs---Visio-API-installation}
 
 It is very easy to install this [Node.js library][7] in your Node.js project. Run the following command to enable this package:
 
@@ -90,7 +90,7 @@ In case of any queries please feel free to write to us at the [forum.][20]
  [1]: https://products.aspose.com/diagram/nodejs-java/
  [2]: https://products.aspose.com/diagram/nodejs-java/
  [3]: https://docs.fileformat.com/pdf/
- [4]: #Nodejs-library-to-convert-VSDX-to-PNG
+ [4]: #Convert-VSDX-to-PDF-and-PNG-using-Nodejs---Visio-API-installation
  [5]: #How-to-convert-VSDX-to-PDF-in-Nodejs
  [6]: #Nodejs-library-to-convert-VSDX-to-PNG
  [7]: https://docs.aspose.com/diagram/java/aspose-diagram-for-node-js-via-java/
