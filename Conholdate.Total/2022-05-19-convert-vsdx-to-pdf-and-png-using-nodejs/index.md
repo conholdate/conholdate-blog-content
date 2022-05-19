@@ -2,7 +2,7 @@
 title: 'Convert VSDX to PDF and PNG using Node.js'
 author: Muhammad Mustafa
 date: 2022-05-19T07:56:46+00:00
-summary: "Go through this blog post to **convert VSDX to PDF and PNG using Node.js**. Install a powerful library to convert VSDX to PDF in Node.js based application."
+summary: "Go through this blog post to **convert VSDX to PDF and PNG using Node.js**. Install a powerful library to convert VSDX to PDF in a Node.js-based application."
 url: /2022/05/19/convert-vsdx-to-pdf-and-png-using-nodejs/
 categories:
   - Conholdate.Diagram Product Family
@@ -65,6 +65,8 @@ Let's explore the following steps to **convert VSDX file to PNG file programmati
 The following code snippet converts a Visio diagram to a PNG file.
 
 {{< gist conholdate-gists d072d683513c90fb319bd187fa1d3c7e "VSDX-to-PNG.js" >}}
+
+{{< figure align=center src="images/vsdx-to-png.png" alt="Convert VSDX to PNG in Node.js" caption="VSDX to PNG in Node.js">}}
 
 
 ## Get a Free License
