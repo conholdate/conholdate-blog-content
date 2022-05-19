@@ -39,7 +39,7 @@ npm install aspose.diagram --save
 
 In this section, we will write a code snippet that will convert [Visio diagram][8] to PDF in Node.js app programmatically.
 
-These are the steps to convert vision files to PDF:
+These are the steps to convert visio files to PDF:
 
   1. Initialize the [Diagram()][9] constructor to load a VSDX file.
   2. Instantiate the [PdfSaveOptions()][10] object for access to various attributes of the PDF file.
@@ -75,7 +75,7 @@ You can select a [free temporary license][17] to use [Aspose.Diagram][18] for No
 
 ## Summing up
 
-We are ending this blog post here. We hope you have learned how to convert [VSDX][8] to PDF in Node.js programmatically. Moreover, we also have gone through the [Aspose.Diagram for Node.js][1] API that converts VSDX to PNG instantly. You can explore the [documentation][7] for further features. In addition, [conholdate.com][19] is continuously writing on new topics. Therefore, please stay connected for regular updates.
+We are ending this blog post here. We hope you have learned how to **convert [VSDX][8] to PDF in Node.js** programmatically. Moreover, we also have gone through the [Aspose.Diagram for Node.js][1] API that converts VSDX to PNG instantly. You can explore the [documentation][7] for further features. In addition, [conholdate.com][19] is continuously writing on new topics. Therefore, please stay connected for regular updates.
 
 ## Ask a question
 
