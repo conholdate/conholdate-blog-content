@@ -39,7 +39,7 @@ npm install aspose.diagram --save
 
 In this section, we will write a code snippet that will convert [Visio diagram][8] to PDF in Node.js app programmatically.
 
-These are the steps to convert visio files to PDF:
+These are the steps to convert Visio files to PDF:
 
   1. Initialize the [Diagram()][9] constructor to load a VSDX file.
   2. Instantiate the [PdfSaveOptions()][10] object for access to various attributes of the PDF file.
