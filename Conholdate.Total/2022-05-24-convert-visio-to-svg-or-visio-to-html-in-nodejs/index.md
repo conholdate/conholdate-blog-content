@@ -2,7 +2,7 @@
 title: 'Convert Visio to SVG or Visio to HTML in Node.js'
 author: Muhammad Mustafa
 date: 2022-05-24T07:56:46+00:00
-summary: "Programmatically **convert Visio to SVG or Visio to HTML in Node.js** application Install this Node.js library to manipulate & convert VSDX or VSD files robustly."
+summary: "Programmatically **convert Visio to SVG or Visio to HTML in Node.js** application. Install this Node.js library to manipulate & convert VSDX or VSD files robustly."
 url: /2022/05/24/convert-visio-to-svg-or-visio-to-html-in-nodejs/
 categories:
   - Conholdate.Diagram Product Family
@@ -18,7 +18,7 @@ tags:
 
 {{< figure align=center src="images/convert-visio-to-svg-or-visio-to-html-in-nodejs.png" alt="Convert Visio to SVG or Visio to HTML in Node.js" caption="Convert Visio to SVG or Visio to HTML in Node.js">}}
 
-In our previous [blog post][1], we went through how to convert [VSDX][2] files to PDF and PNG programmatically in the Node.js application. However, this article will go through the steps and the code snippet to **convert Visio to [SVG][3] or Visio to [HTML][4] in Node.js**. This [Visio Node.js library][5] enables you to edit, create and convert VSDX files from one format to another easily and quickly. Further, you may save your diagram as a web page to embed in your business websites.
+In our previous [blog post][1], we went through how to convert [VSDX][2] files to PDF and PNG programmatically in the Node.js application. However, this article will go through the steps and the code snippet to **convert Visio to [SVG][3] or Visio to [HTML][4] in Node.js**. This [Visio Node.js library][5] enables you to edit, create and convert VSDX files to another file format easily and quickly. Further, you may save your diagram as a web page to embed in your business websites.
 
 The following points shall be covered in this blog post:
 
@@ -35,7 +35,7 @@ The following steps will be performed:
 
   1. Invoke the [Diagram()][10] constructor to load a VSDX file.
   2. Initialize a new instance of [SVGSaveOptions()][11] to specify additional options.
-  3. Call [setSVGFitToViewPort(true)][12] method will make the generated SVG fit to viewport.
+  3. Call [setSVGFitToViewPort(true)][12] method that will make the generated SVG fit to viewport.
   4. Use this [setExportElementAsRectTag(true)][13] method to set export element as Rectangle.
   5. [save(filename, format)][14] method to save the file in SVG format.
 
@@ -57,15 +57,15 @@ We will follow the steps mentioned below to **convert the VSDX file to a web pag
  5. Invoke [setDefaultFont(string)][18] method to set the font.
  6. [save(filename, format)][14] method to save the file in HTML format.
 
-The following code snippet converts a Visio diagram to a PNG file.
+The following code snippet converts a Visio diagram to a HTML file.
 
 {{< gist conholdate-gists de268ff1bf718acadc3de3a3f9ee78af "VSDX-to-SVG-in-Nodejs.js" >}}
 
-{{< figure align=center src="images/vsdx-to-html.png" alt="Convert VSDX to PNG in Node.js" caption="VSDX to PNG in Node.js">}}
+{{< figure align=center src="images/vsdx-to-html.png" alt="Convert VSDX to HTML in Node.js" caption="VSDX to HTML in Node.js">}}
 
 ## Convert Visio to SVG or Visio to HTML in Node.js - advance options {#Convert-Visio-to-SVG-or-Visio-to-HTML-in-Nodejs---advance-options}
 
-In addition, this [Node.js Diagram library][5] also provides many features related to HTML and SVG file formats. However, you may find some code snippets also that demonstrate the usage of methods.
+In addition, this [Node.js Diagram library][5] also provides many features related to HTML and SVG file formats. However, you may find the code snippets also that demonstrate the usage of the methods.
 
 ## Get a Free License
 
@@ -73,7 +73,7 @@ Please try the API beyond evaluation limitations by requesting a [free temporary
 
 ## Summing up
 
-This brings us to end this blog post. We have gone through some interesting points that include converting **Visio to SVG and Visio to HTML in Node.js**application. This blog post will really help you if you are looking to integrate [Aspose.Diagram library][20] to convert VSDX files to other popular file formats. In addition, you may explore the documentation for further features. Moreover, [conholdate.com][21] is continuously writing new articles. Therefore, please stay connected for the latest updates.
+This brings us to end this blog post. We have gone through some interesting points that include converting **Visio to SVG and Visio to HTML in Node.js** application. This blog post will really help you if you are looking to integrate [Aspose.Diagram library][20] to convert VSDX files to other popular file formats. In addition, you may explore the [documentation][28] for further features. Moreover, [conholdate.com][21] is continuously writing new articles. Therefore, please stay connected for the latest updates.
 
 ## Ask a question
 
@@ -114,3 +114,4 @@ You can share your questions or queries on our [forum][22].
  [25]: https://blog.conholdate.com/2022/04/25/import-xml-into-excel-in-nodejs/
  [26]: https://blog.conholdate.com/2022/05/12/insert-rows-and-columns-in-excel-files-using-nodejs/
  [27]: https://blog.conholdate.com/2022/05/10/unmerge-or-merge-cells-in-excel-worksheets-using-nodejs/
+ [28]: https://docs.aspose.com/diagram/java/aspose-diagram-for-node-js-via-java/
