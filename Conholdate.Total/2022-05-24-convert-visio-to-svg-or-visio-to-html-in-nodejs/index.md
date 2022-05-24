@@ -55,7 +55,7 @@ We will follow the steps mentioned below to **convert the VSDX file to a web pag
  3. Call this [setTitle(string)][16] method to set the title of the HTML document.
  4. [setSaveToolBar(true)][17] will specify whether to include the toolbar or not.
  5. Invoke [setDefaultFont(string)][18] method to set the font.
- 6. [save(filename, format)][19] method to save the file in HTML format.
+ 6. [save(filename, format)][14] method to save the file in HTML format.
 
 The following code snippet converts a Visio diagram to a PNG file.
 
@@ -65,48 +65,52 @@ The following code snippet converts a Visio diagram to a PNG file.
 
 ## Convert Visio to SVG or Visio to HTML in Node.js - advance options {#Convert-Visio-to-SVG-or-Visio-to-HTML-in-Nodejs---advance-options}
 
-In addition, this [Node.js Diagram library][20] also provides many features related to HTML and SVG file formats. However, you may find some code snippets also that demonstrate the usage of methods.
+In addition, this [Node.js Diagram library][5] also provides many features related to HTML and SVG file formats. However, you may find some code snippets also that demonstrate the usage of methods.
 
 ## Get a Free License
 
-Please try the API beyond evaluation limitations by requesting a [free temporary license][21].
+Please try the API beyond evaluation limitations by requesting a [free temporary license][19].
 
 ## Summing up
 
-This brings us to end this blog post. We have gone through some interesting points that include converting Visio to SVG and Visio to HTML in Node.js application. This blog post will really help you if you are looking to integrate [Aspose.Diagram library][22] to convert VSDX files to other popular file formats. In addition, you may explore the documentation for further features. Moreover, [conholdate.com][23] is continuously writing new articles. Therefore, please stay connected for the latest updates.
+This brings us to end this blog post. We have gone through some interesting points that include converting **Visio to SVG and Visio to HTML in Node.js**application. This blog post will really help you if you are looking to integrate [Aspose.Diagram library][20] to convert VSDX files to other popular file formats. In addition, you may explore the documentation for further features. Moreover, [conholdate.com][21] is continuously writing new articles. Therefore, please stay connected for the latest updates.
 
 ## Ask a question
 
-You can share your questions or queries on our [forum][24].
+You can share your questions or queries on our [forum][22].
 
 ## See Also
 
-  * [Convert VSDX to PDF and PNG using Node.js][25]
-  * [Convert SVG to PDF Programmatically in Java][26]
-  * [Import XML into Excel in Node.js][27]
-  * [Insert Rows and Columns in Excel Files using Node.js][28]
-  * [UnMerge or Merge Cells in Excel Worksheets using Node.js][29]
+  * [Convert VSDX to PDF and PNG using Node.js][23]
+  * [Convert SVG to PDF Programmatically in Java][24]
+  * [Import XML into Excel in Node.js][25]
+  * [Insert Rows and Columns in Excel Files using Node.js][26]
+  * [UnMerge or Merge Cells in Excel Worksheets using Node.js][27]
 
- [1]: https://products.aspose.com/diagram/nodejs-java/
- [2]: https://products.aspose.com/diagram/nodejs-java/
- [3]: https://docs.fileformat.com/pdf/
- [4]: #Convert-VSDX-to-PDF-and-PNG-using-Nodejs---Visio-API-installation
- [5]: #How-to-convert-VSDX-to-PDF-in-Nodejs
- [6]: #Nodejs-library-to-convert-VSDX-to-PNG
- [7]: https://docs.aspose.com/diagram/java/aspose-diagram-for-node-js-via-java/
- [8]: https://docs.fileformat.com/visio/vsdx/
- [9]: https://apireference.aspose.com/diagram/nodejs/Diagram
- [10]: https://apireference.aspose.com/diagram/nodejs/PdfSaveOptions
- [11]: https://apireference.aspose.com/diagram/nodejs/PdfSaveOptions#setSplitMultiPages
- [12]: https://apireference.aspose.com/diagram/nodejs/Diagram#save
- [13]: https://apireference.aspose.com/diagram/nodejs/ImageSaveOptions
- [14]: https://apireference.aspose.com/diagram/nodejs/ImageSaveOptions#setResolution
- [15]: https://apireference.aspose.com/diagram/nodejs/ImageSaveOptions#setImageBrightness
- [16]: https://apireference.aspose.com/diagram/nodejs/Diagram#save
- [17]: https://purchase.conholdate.com/temporary-license
- [18]: https://products.aspose.com/diagram/
- [19]: https://www.conholdate.com/
- [20]: https://forum.conholdate.com/
- [21]: https://blog.conholdate.com/2022/05/17/convert-svg-to-pdf-programmatically-in-java/
- [22]: https://blog.conholdate.com/2022/04/25/import-xml-into-excel-in-nodejs/
- [23]: https://blog.conholdate.com/2022/05/10/unmerge-or-merge-cells-in-excel-worksheets-using-nodejs/
+ [1]: https://blog.conholdate.com/2022/05/19/convert-vsdx-to-pdf-and-png-using-nodejs/
+ [2]: https://docs.fileformat.com/visio/vsdx/
+ [3]: https://docs.fileformat.com/page-description-language/svg/
+ [4]: https://docs.fileformat.com/web/html/
+ [5]: https://docs.aspose.com/diagram/java/aspose-diagram-for-node-js-via-java/
+ [6]: #Convert-Visio-to-SVG-using-Nodejs
+ [7]: #Nodejs-library-to-convert-VSDX-or-Visio-to-HTML
+ [8]: #Convert-Visio-to-SVG-or-Visio-to-HTML-in-Nodejs---advance-options
+ [9]: https://blog.conholdate.com/2022/05/19/convert-vsdx-to-pdf-and-png-using-nodejs/#Convert-VSDX-to-PDF-and-PNG-using-Nodejs---Visio-API-installation
+ [10]: https://apireference.aspose.com/diagram/nodejs/Diagram
+ [11]: https://apireference.aspose.com/diagram/nodejs/SVGSaveOptions
+ [12]: https://apireference.aspose.com/diagram/nodejs/SVGSaveOptions#setSVGFitToViewPort
+ [13]: https://apireference.aspose.com/diagram/nodejs/SVGSaveOptions#setExportElementAsRectTag
+ [14]: https://apireference.aspose.com/diagram/nodejs/Diagram#save
+ [15]: https://apireference.aspose.com/diagram/nodejs/HTMLSaveOptions
+ [16]: https://apireference.aspose.com/diagram/nodejs/HTMLSaveOptions#setTitle
+ [17]: https://apireference.aspose.com/diagram/nodejs/HTMLSaveOptions#setSaveToolBar
+ [18]: https://apireference.aspose.com/diagram/nodejs/HTMLSaveOptions#setDefaultFont
+ [19]: https://purchase.conholdate.com/temporary-license
+ [20]: https://products.aspose.com/diagram/nodejs-java/
+ [21]: https://www.conholdate.com/
+ [22]: https://forum.conholdate.com/
+ [23]: https://blog.conholdate.com/2022/05/19/convert-vsdx-to-pdf-and-png-using-nodejs/
+ [24]: https://blog.conholdate.com/2022/05/17/convert-svg-to-pdf-programmatically-in-java/
+ [25]: https://blog.conholdate.com/2022/04/25/import-xml-into-excel-in-nodejs/
+ [26]: https://blog.conholdate.com/2022/05/12/insert-rows-and-columns-in-excel-files-using-nodejs/
+ [27]: https://blog.conholdate.com/2022/05/10/unmerge-or-merge-cells-in-excel-worksheets-using-nodejs/
