@@ -16,7 +16,7 @@ tags:
 ---
 
 
-{{< figure align=center src="images/html-to-markdown" alt="Convert HTML to Markdown or HTML to PNG in Java" caption="Convert HTML to Markdown or HTML to PNG in Java">}}
+{{< figure align=center src="images/html-to-markdown.png" alt="Convert HTML to Markdown or HTML to PNG in Java" caption="Convert HTML to Markdown or HTML to PNG in Java">}}
 
 [Markdown][1] and [HTML][2] are the two most popular mark-up languages used on the web. Markdown is an easy, lightweight language to format text using symbols. Whereas, HTML lets users design complex web structures with the help of pre-defined and custom tags. In some cases, users prefer Markdown over HTML due to its robustness and simplicity. Therefore, in this article, we will **convert HTML to Markdown or HTML to PNG in Java programmatically** using API methods offered by [Aspose.HTML for Java][3].
 
