@@ -59,17 +59,19 @@ The following steps will be performed to **convert HTML to .md file in a Java ap
  2. Initialize an object of [MarkdownSaveOptions()][9] class.
  3. Invoke this method [convertHTML(HTMLDocument document, MarkdownSaveOptions options, java.lang.String outputPath)][10] to convert a web page to Markdown file. This method will save the converted file at the mentioned path.
 
+Now, copy and paste the following code snippet in your Java file:
+
 {{< gist conholdate-gists fd62540910d2758d35180203599ab467 "convert-HTML-to-markdown.java" >}}
 
 ## HTML to PNG conversion library in Java {#HTML-to-PNG-conversion-library-in-Java}
 
-This section will demonstrate the steps and the code snippet to convert an HTML file to PNG file programmatically in Java.
+This section will demonstrate the steps and the code snippet to **convert an HTML file to PNG file programmatically** in Java.
 
 Lets go through the following steps:
 
  1. Initiate an instance of [HTMLDocument][8] class and load the source HTML file.
  2. Create an object of [ImageSaveOptions][11] class to access the image attributes.
- 3. Make a call to this [convertHTML(HTMLDocument document, ImageSaveOptions options, java.lang.String outputPath)][12] to convert a HTML to PNG.
+ 3. Make a call to this [convertHTML(HTMLDocument document, ImageSaveOptions options, java.lang.String outputPath)][12] method to convert a HTML to PNG.
 
 {{< gist conholdate-gists fd62540910d2758d35180203599ab467 "HTML-to-PNG-conversion-library.java" >}}
 
@@ -79,7 +81,7 @@ You can avail a [free temporary license][13] to try the API without evaluation l
 
 ## Summing up
 
-In this blog post, we have learned how to convert HTML to Markdown or HTML to PNG in Java programmatically. We have noted down the steps and the code examples to test the HTML to .md & HTML to PNG converter APIs. In addition, you can explore the [documentation][14] to learn about the other features. Moreover, [conholdate.com][15] is continuously writing new blog posts. Therefore, please stay in touch for the latest updates.
+In this blog post, we have learned how to **convert HTML to Markdown or HTML to PNG in Java programmatically**. We have noted down the steps and the code examples to test the **HTML to .md & HTML to PNG conversion APIs. In addition, you can explore the [documentation][14] to learn about the other features. Moreover, [conholdate.com][15] is continuously writing new blog posts. Therefore, please stay in touch for the latest updates.
 
 ## Ask a question
 
