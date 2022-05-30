@@ -2,6 +2,7 @@
 title: 'Convert HTML to Markdown or HTML to PNG in Java'
 author: Muhammad Mustafa
 date: 2022-05-26T07:56:46+00:00
+description: "Learn how to **convert HTML to Markdown or HTML to PNG in Java programmatically** using an easy-to-install Java library. Convert web page to an image or .md file. "
 summary: "Learn how to **convert HTML to Markdown or HTML to PNG in Java programmatically** using an easy-to-install Java library. Convert web page to an image or .md file. "
 url: /2022/05/26/convert-html-to-markdown-or-html-to-png-in-java/
 categories:
